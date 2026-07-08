@@ -1,0 +1,332 @@
+@page
+@model DownloadModel
+@{
+    Layout = null;
+    ViewData["Title"] = "Download Obumu - App & Web Access";
+    ViewData["ActiveNav"] = "download";
+}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <partial name="_Head" />
+</head>
+
+<body>
+
+    <partial name="_Nav" />
+
+    <!-- HERO -->
+    <section class="hero hero-inner download-hero" style="--hero-img:url('/assets/images/events/healthcare.jpg')">
+        <div class="hero-blob"></div>
+        <div class="hero-main wrap">
+            <div class="hero-left">
+                <div class="hero-pill"><span class="pill-dot"></span>Access made better</div>
+                <h1>Get Obumu on your phone, or use the <span style="color:var(--orange)">web experience</span>.</h1>
+                <div class="hero-cta">
+                    <a href="http://209.209.42.109:5000/Obumu/Accounts/Register" class="btn btn-orange btn-lg">Start
+                        collecting</a>
+                    <a href="/HowItWorks" class="btn btn-outline btn-lg">See how it works</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- BIG BOLD CLAIM -->
+    <div class="claim-banner">
+        <div class="wrap claim-banner-text">
+            Works on <em>any phone.</em> Even a basic one. Even on <em>2G.</em>
+        </div>
+    </div>
+
+    <!-- APP RATINGS -->
+    <div class="hero-stats">
+        <div class="hstat"><span class="hstat-num orange">4.8 ★</span><span class="hstat-lbl">App Store rating</span></div>
+        <div class="hstat"><span class="hstat-num orange">4.7 ★</span><span class="hstat-lbl">Google Play rating</span></div>
+        <div class="hstat"><span class="hstat-num">50,000+</span><span class="hstat-lbl">Downloads to date</span></div>
+        <div class="hstat"><span class="hstat-num">32 MB</span><span class="hstat-lbl">Light on storage &amp; data</span></div>
+    </div>
+
+    <!-- DOWNLOAD CARDS -->
+    <section class="download-section">
+        <div class="wrap">
+            <div class="download-grid">
+
+                <div class="download-card glass-card-dark">
+                    <div class="download-card-body">
+                        <span class="eyebrow">Mobile access</span>
+                        <h2>Get on mobile</h2>
+                    </div>
+                    <div class="download-card-visual">
+                        <img src="/assets/images/mobile.png" alt="Obumu mobile app" class="card-img" />
+                    </div>
+                </div>
+
+                <div class="download-card glass-card-dark">
+                    <div class="download-card-body">
+                        <span class="eyebrow">Web dashboard</span>
+                        <h2>Get on desktop</h2>
+                    </div>
+                    <div class="download-card-visual">
+                        <img src="/assets/images/desktop.png" alt="Obumu desktop dashboard" class="card-img" />
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="download-badges">
+                <a href="http://209.209.42.109:5000/Obumu/Accounts/Register" class="badge-store">
+                    <img src="/assets/images/app_store.png" alt="App Store" />
+                    <div>
+                        <small>Download on the</small>
+                        <strong>App Store</strong>
+                    </div>
+                </a>
+                <a href="http://209.209.42.109:5000/Obumu/Accounts/Register" class="badge-store">
+                    <img src="/assets/images/google_playstore.png" alt="Google Play" />
+                    <div>
+                        <small>Get it on</small>
+                        <strong>Google Play</strong>
+                    </div>
+                </a>
+                <a href="http://209.209.42.109:5000/Obumu/Accounts/Register" class="badge-store">
+                    <img src="/assets/images/obumu_logo_main.png" alt="Web app" />
+                    <div>
+                        <small>Use it on</small>
+                        <strong>Web browser</strong>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- REQUIREMENTS -->
+    <section class="features-section" style="padding-top:0">
+        <div class="wrap">
+            <div class="feat-header">
+                <span class="eyebrow">Before you install</span>
+                <h2 class="display-sm">What you'll need</h2>
+                <p class="lead" style="text-align:center;margin:0 auto;max-width:480px">Obumu is built to run
+                    smoothly on the phones and networks people actually use across Uganda.</p>
+            </div>
+            <div class="req-grid">
+                <div class="req-card">
+                    <div class="req-card-icon">
+                        <svg viewBox="0 0 24 24" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="5" y="1" width="14" height="22" rx="2" /><path d="M9 19h6" />
+                        </svg>
+                    </div>
+                    <span>Android</span>
+                    <strong>Version 8.0 and up</strong>
+                </div>
+                <div class="req-card">
+                    <div class="req-card-icon">
+                        <svg viewBox="0 0 24 24" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M12 2 4 5v6c0 5.25 3.4 9.74 8 11 4.6-1.26 8-5.75 8-11V5l-8-3Z" />
+                        </svg>
+                    </div>
+                    <span>iOS</span>
+                    <strong>Version 14 and up</strong>
+                </div>
+                <div class="req-card">
+                    <div class="req-card-icon">
+                        <svg viewBox="0 0 24 24" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M6 2h9l5 5v15H6Z" /><path d="M15 2v5h5" />
+                        </svg>
+                    </div>
+                    <span>Storage needed</span>
+                    <strong>About 32 MB</strong>
+                </div>
+                <div class="req-card">
+                    <div class="req-card-icon">
+                        <svg viewBox="0 0 24 24" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7-10-7-10-7Z" /><circle cx="12" cy="12" r="3" />
+                        </svg>
+                    </div>
+                    <span>Built for</span>
+                    <strong>2G and 3G networks</strong>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- COMPARE WEB VS MOBILE -->
+    <section class="compare-section">
+        <div class="wrap-sm">
+            <div class="feat-header">
+                <span class="eyebrow">Web or mobile</span>
+                <h2 class="display-sm">Pick what suits the moment</h2>
+                <p class="lead" style="text-align:center;margin:0 auto;max-width:480px">Both experiences share
+                    the same live data, so organisers and contributors are always looking at the same numbers.</p>
+            </div>
+            <div class="compare-table">
+                <div class="compare-row head">
+                    <div class="compare-cell">Feature</div>
+                    <div class="compare-cell">Web</div>
+                    <div class="compare-cell">Mobile</div>
+                </div>
+                <div class="compare-row">
+                    <div class="compare-cell">Full analytics dashboard</div>
+                    <div class="compare-cell"><span class="compare-yes"><svg viewBox="0 0 14 10"><path d="M1 5l4 4 8-8" /></svg></span></div>
+                    <div class="compare-cell"><span class="compare-no"><svg viewBox="0 0 12 2"><path d="M1 1h10" /></svg></span></div>
+                </div>
+                <div class="compare-row">
+                    <div class="compare-cell">Pay via a shared link</div>
+                    <div class="compare-cell"><span class="compare-yes"><svg viewBox="0 0 14 10"><path d="M1 5l4 4 8-8" /></svg></span></div>
+                    <div class="compare-cell"><span class="compare-yes"><svg viewBox="0 0 14 10"><path d="M1 5l4 4 8-8" /></svg></span></div>
+                </div>
+                <div class="compare-row">
+                    <div class="compare-cell">Downloadable statements</div>
+                    <div class="compare-cell"><span class="compare-yes"><svg viewBox="0 0 14 10"><path d="M1 5l4 4 8-8" /></svg></span></div>
+                    <div class="compare-cell"><span class="compare-no"><svg viewBox="0 0 12 2"><path d="M1 1h10" /></svg></span></div>
+                </div>
+                <div class="compare-row">
+                    <div class="compare-cell">Instant push notifications</div>
+                    <div class="compare-cell"><span class="compare-no"><svg viewBox="0 0 12 2"><path d="M1 1h10" /></svg></span></div>
+                    <div class="compare-cell"><span class="compare-yes"><svg viewBox="0 0 14 10"><path d="M1 5l4 4 8-8" /></svg></span></div>
+                </div>
+                <div class="compare-row">
+                    <div class="compare-cell">Multi-organiser management</div>
+                    <div class="compare-cell"><span class="compare-yes"><svg viewBox="0 0 14 10"><path d="M1 5l4 4 8-8" /></svg></span></div>
+                    <div class="compare-cell"><span class="compare-no"><svg viewBox="0 0 12 2"><path d="M1 1h10" /></svg></span></div>
+                </div>
+                <div class="compare-row">
+                    <div class="compare-cell">Works on a basic phone browser</div>
+                    <div class="compare-cell"><span class="compare-yes"><svg viewBox="0 0 14 10"><path d="M1 5l4 4 8-8" /></svg></span></div>
+                    <div class="compare-cell"><span class="compare-yes"><svg viewBox="0 0 14 10"><path d="M1 5l4 4 8-8" /></svg></span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- APP REVIEWS -->
+    <section class="trust-section" id="app-reviews">
+        <div class="wrap trust-header" data-r>
+            <span class="eyebrow">From the app stores</span>
+            <h2 class="display-sm" style="text-align:center;margin-bottom:14px;color:#fff">Rated by <em>real users.</em></h2>
+            <p style="text-align:center;font-size:1rem;color:rgba(245,200,66,.6)">A sample of what people are saying after installing Obumu.</p>
+        </div>
+        <div class="wrap">
+            <div class="trust-heroes">
+                <div class="trust-hero glass-card-dark" data-r="l">
+                    <div class="stars">
+                        <svg viewBox="0 0 20 20" fill="currentColor" style="color:var(--orange)"><path d="M10 1.5l2.6 5.6 6.1.6-4.6 4.2 1.3 6-5.4-3.1-5.4 3.1 1.3-6L1.3 7.7l6.1-.6L10 1.5Z"/></svg>
+                        <svg viewBox="0 0 20 20" fill="currentColor" style="color:var(--orange)"><path d="M10 1.5l2.6 5.6 6.1.6-4.6 4.2 1.3 6-5.4-3.1-5.4 3.1 1.3-6L1.3 7.7l6.1-.6L10 1.5Z"/></svg>
+                        <svg viewBox="0 0 20 20" fill="currentColor" style="color:var(--orange)"><path d="M10 1.5l2.6 5.6 6.1.6-4.6 4.2 1.3 6-5.4-3.1-5.4 3.1 1.3-6L1.3 7.7l6.1-.6L10 1.5Z"/></svg>
+                        <svg viewBox="0 0 20 20" fill="currentColor" style="color:var(--orange)"><path d="M10 1.5l2.6 5.6 6.1.6-4.6 4.2 1.3 6-5.4-3.1-5.4 3.1 1.3-6L1.3 7.7l6.1-.6L10 1.5Z"/></svg>
+                        <svg viewBox="0 0 20 20" fill="currentColor" style="color:var(--orange)"><path d="M10 1.5l2.6 5.6 6.1.6-4.6 4.2 1.3 6-5.4-3.1-5.4 3.1 1.3-6L1.3 7.7l6.1-.6L10 1.5Z"/></svg>
+                    </div>
+                    <p class="trust-hero-quote">"Installed on my mother's old Android in the village, only 32MB
+                        and it still opens fast on her connection. That mattered more than I expected."</p>
+                    <div class="trust-hero-who">
+                        <div class="trust-hero-initials">JK</div>
+                        <div>
+                            <div class="trust-hero-name">Jaja Kirabo</div>
+                            <div class="trust-hero-loc">Google Play review</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="trust-hero glass-card-dark" data-r>
+                    <div class="stars">
+                        <svg viewBox="0 0 20 20" fill="currentColor" style="color:var(--orange)"><path d="M10 1.5l2.6 5.6 6.1.6-4.6 4.2 1.3 6-5.4-3.1-5.4 3.1 1.3-6L1.3 7.7l6.1-.6L10 1.5Z"/></svg>
+                        <svg viewBox="0 0 20 20" fill="currentColor" style="color:var(--orange)"><path d="M10 1.5l2.6 5.6 6.1.6-4.6 4.2 1.3 6-5.4-3.1-5.4 3.1 1.3-6L1.3 7.7l6.1-.6L10 1.5Z"/></svg>
+                        <svg viewBox="0 0 20 20" fill="currentColor" style="color:var(--orange)"><path d="M10 1.5l2.6 5.6 6.1.6-4.6 4.2 1.3 6-5.4-3.1-5.4 3.1 1.3-6L1.3 7.7l6.1-.6L10 1.5Z"/></svg>
+                        <svg viewBox="0 0 20 20" fill="currentColor" style="color:var(--orange)"><path d="M10 1.5l2.6 5.6 6.1.6-4.6 4.2 1.3 6-5.4-3.1-5.4 3.1 1.3-6L1.3 7.7l6.1-.6L10 1.5Z"/></svg>
+                        <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" style="color:var(--orange)"><path d="M10 1.5l2.6 5.6 6.1.6-4.6 4.2 1.3 6-5.4-3.1-5.4 3.1 1.3-6L1.3 7.7l6.1-.6L10 1.5Z"/></svg>
+                    </div>
+                    <p class="trust-hero-quote">"Started a collection on the app during a bus ride, finished
+                        reviewing payouts on my laptop that evening. Nothing was out of sync."</p>
+                    <div class="trust-hero-who">
+                        <div class="trust-hero-initials" style="background:var(--orange)">RM</div>
+                        <div>
+                            <div class="trust-hero-name">Rahim Mugisha</div>
+                            <div class="trust-hero-loc">App Store review</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="trust-hero glass-card-dark" data-r="r">
+                    <div class="stars">
+                        <svg viewBox="0 0 20 20" fill="currentColor" style="color:var(--orange)"><path d="M10 1.5l2.6 5.6 6.1.6-4.6 4.2 1.3 6-5.4-3.1-5.4 3.1 1.3-6L1.3 7.7l6.1-.6L10 1.5Z"/></svg>
+                        <svg viewBox="0 0 20 20" fill="currentColor" style="color:var(--orange)"><path d="M10 1.5l2.6 5.6 6.1.6-4.6 4.2 1.3 6-5.4-3.1-5.4 3.1 1.3-6L1.3 7.7l6.1-.6L10 1.5Z"/></svg>
+                        <svg viewBox="0 0 20 20" fill="currentColor" style="color:var(--orange)"><path d="M10 1.5l2.6 5.6 6.1.6-4.6 4.2 1.3 6-5.4-3.1-5.4 3.1 1.3-6L1.3 7.7l6.1-.6L10 1.5Z"/></svg>
+                        <svg viewBox="0 0 20 20" fill="currentColor" style="color:var(--orange)"><path d="M10 1.5l2.6 5.6 6.1.6-4.6 4.2 1.3 6-5.4-3.1-5.4 3.1 1.3-6L1.3 7.7l6.1-.6L10 1.5Z"/></svg>
+                        <svg viewBox="0 0 20 20" fill="currentColor" style="color:var(--orange)"><path d="M10 1.5l2.6 5.6 6.1.6-4.6 4.2 1.3 6-5.4-3.1-5.4 3.1 1.3-6L1.3 7.7l6.1-.6L10 1.5Z"/></svg>
+                    </div>
+                    <p class="trust-hero-quote">"Guests who don't even have the app could still pay through the
+                        link on WhatsApp. Only I needed to actually download anything."</p>
+                    <div class="trust-hero-who">
+                        <div class="trust-hero-initials" style="background:#1a9e52">FN</div>
+                        <div>
+                            <div class="trust-hero-name">Faridah Nansubuga</div>
+                            <div class="trust-hero-loc">Google Play review</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq-section" id="download-faq">
+        <div class="wrap-sm">
+            <div class="how-header">
+                <span class="eyebrow">Good to know</span>
+                <h2 class="display-sm">Download questions, answered</h2>
+            </div>
+            <div class="faq-list">
+                <details class="faq-item" open>
+                    <summary>
+                        <span>Is the Obumu app free to download?</span>
+                        <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7.5 10 12.5 15 7.5" /></svg>
+                    </summary>
+                    <p>Yes, downloading and creating an account costs nothing on both the app and the web
+                        dashboard. A small service fee only applies when funds are withdrawn.</p>
+                </details>
+                <details class="faq-item">
+                    <summary>
+                        <span>Do I need the app to contribute to a collection?</span>
+                        <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7.5 10 12.5 15 7.5" /></svg>
+                    </summary>
+                    <p>No. Anyone can open a shared collection link in their phone's browser and pay directly,
+                        no download and no account needed on their end.</p>
+                </details>
+                <details class="faq-item">
+                    <summary>
+                        <span>Can I switch between the app and the web dashboard?</span>
+                        <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7.5 10 12.5 15 7.5" /></svg>
+                    </summary>
+                    <p>Yes. Your account and every collection stay in sync across devices, so you can start
+                        on your phone and finish up on a laptop without losing anything.</p>
+                </details>
+                <details class="faq-item">
+                    <summary>
+                        <span>Does the app work with a weak internet connection?</span>
+                        <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7.5 10 12.5 15 7.5" /></svg>
+                    </summary>
+                    <p>The app is built to be light on data and stays usable on 2G and 3G connections, so it
+                        keeps working even in areas with limited network coverage.</p>
+                </details>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta-section" id="start">
+        <div class="cta-glass">
+            <div class="wrap-xs">
+                <span class="eyebrow" style="display:block;margin-bottom:18px;position:relative;z-index:1;color:var(--orange)">Ready?</span>
+                <h2 class="cta-h">Get set up<br>in <em>minutes.</em></h2>
+                <p class="cta-p">Install the app or open the web dashboard. Free to start. Easy to use.</p>
+                <div class="cta-btns">
+                    <a href="http://209.209.42.109:5000/Obumu/Accounts/Register" class="btn btn-orange btn-lg">Create your
+                        account</a>
+                    <a href="/Contact" class="btn btn-outline-white btn-lg">Talk to us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<partial name="_Footer" />
+</body>
+
+</html>

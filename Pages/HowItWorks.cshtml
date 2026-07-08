@@ -1,0 +1,358 @@
+@page
+@model HowItWorksModel
+@{
+  Layout = null;
+  ViewData["Title"] = "How It Works - Obumu";
+  ViewData["ActiveNav"] = "how";
+}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <partial name="_Head" />
+</head>
+
+<body>
+
+  <partial name="_Nav" />
+
+  <!-- HERO -->
+  <section class="hero hero-inner" style="--hero-img:url('/assets/images/events/new_classroom_block.jpg')">
+    <div class="hero-blob"></div>
+    <div class="hero-main wrap">
+      <div class="hero-left">
+        <div class="hero-pill"><span class="pill-dot"></span>Simple by design</div>
+        <h1>Three steps. <span style="color:var(--orange)">One transparent process.</span></h1>
+        <p class="hero-sub">
+          From creating a collection to seeing the final total, Obumu keeps every step visible
+          to everyone involved. <strong>No spreadsheets. No guesswork.</strong>
+        </p>
+        <div class="hero-cta">
+          <a href="http://209.209.42.109:5000/Obumu/Accounts/Register" class="btn btn-orange btn-lg">Get started
+            free</a>
+            <a href="/Features" class="btn btn-outline btn-lg">Explore features</a>
+          </div>
+        </div>
+        @* <div class="hero-right">
+        <div class="hero-visual-wrap">
+          <div class="hero-accent-bar"></div>
+          <div class="hero-img-main">
+            <img src="/assets/images/events/offering.jpg" alt="Community members contributing on Obumu" loading="eager"
+      style="width:100%;height:100%;object-fit:cover" />
+          </div>
+        </div>
+      </div> *@
+      </div>
+    </section>
+
+    <!-- BIG BOLD CLAIM -->
+    <div class="claim-banner">
+      <div class="wrap claim-banner-text">
+        Create a collection in <em>2 minutes.</em> Get paid <em>instantly.</em>
+      </div>
+    </div>
+
+    <!-- STATS BAND -->
+    <div class="hero-stats">
+      <div class="hstat"><span class="hstat-num orange">2 min</span><span class="hstat-lbl">Average setup time</span></div>
+      <div class="hstat"><span class="hstat-num">Instant</span><span class="hstat-lbl">Mobile money payouts</span></div>
+      <div class="hstat"><span class="hstat-num orange">12,000+</span><span class="hstat-lbl">Collections tracked live</span></div>
+      <div class="hstat"><span class="hstat-num">70%</span><span class="hstat-lbl">Avg. goal reached</span></div>
+    </div>
+
+    <!-- HOW IT WORKS -->
+    <section class="how-section" id="how">
+      <div class="wrap">
+        <div class="how-header">
+          <span class="eyebrow">The process</span>
+          <h2 class="display-sm">From idea to fully tracked collection</h2>
+        </div>
+        <div class="how-cols">
+          <div class="how-col" data-r>
+            <div class="how-col-num">01</div>
+            <div class="how-col-icon">
+              <svg viewBox="0 0 24 24" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 5v14M5 12h14" />
+              </svg>
+            </div>
+            <h3>Create your collection</h3>
+            <p>Give it a name, a target, and a purpose: a wedding, a medical bill, a school project.</p>
+            <ul class="how-col-list">
+              <li>Takes under 2 minutes</li>
+              <li>Add co-organisers</li>
+              <li>Set a target or leave it open</li>
+            </ul>
+          </div>
+          <div class="how-col" data-r>
+            <div class="how-col-num">02</div>
+            <div class="how-col-icon">
+              <svg viewBox="0 0 24 24" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="5" width="20" height="14" rx="2" />
+                <path d="M2 10h20" />
+              </svg>
+            </div>
+            <h3>Share and collect</h3>
+            <p>Share your link. Contributors pay instantly via MTN MoMo, Airtel Money, Visa, or bank transfer.</p>
+            <ul class="how-col-list">
+              <li>Works on any phone</li>
+              <li>Instant payment confirmation</li>
+              <li>Pledges tracked separately</li>
+            </ul>
+          </div>
+          <div class="how-col" data-r>
+            <div class="how-col-num">03</div>
+            <div class="how-col-icon">
+              <svg viewBox="0 0 24 24" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M3 3v18h18" />
+                <path d="M7 15l4-4 3 3 5-6" />
+              </svg>
+            </div>
+            <h3>Track everything live</h3>
+            <p>Watch the total update in real time. Export a full statement whenever you need it.</p>
+            <ul class="how-col-list">
+              <li>Live dashboard for everyone</li>
+              <li>Downloadable statements</li>
+              <li>Full contributor history</li>
+            </ul>
+          </div>
+        </div>
+        <div class="how-dashboard glass-card">
+          <div class="how-db-head">
+            <div class="how-db-badge">
+              <svg viewBox="0 0 14 14" fill="none" stroke-width="1.6" stroke-linecap="round">
+                <path d="M7 1a6 6 0 100 12A6 6 0 007 1Z" />
+                <path d="M5 7l1.5 1.5L9.5 5" />
+              </svg>
+              Verified collection
+            </div>
+            <div class="how-db-live"><span></span>Live</div>
+          </div>
+          <div class="how-db-grid">
+            <div class="how-db-stat">
+              <span class="how-db-stat-lbl">Collected</span>
+              <span class="how-db-stat-val">UGX 4.2M</span>
+            </div>
+            <div class="how-db-stat">
+              <span class="how-db-stat-lbl">Target</span>
+              <span class="how-db-stat-val">UGX 6M</span>
+            </div>
+            <div class="how-db-stat">
+              <span class="how-db-stat-lbl">Contributors</span>
+              <span class="how-db-stat-val orange">86</span>
+            </div>
+            <div class="how-db-stat">
+              <span class="how-db-stat-lbl">Days left</span>
+              <span class="how-db-stat-val">12</span>
+            </div>
+          </div>
+          <div class="how-bar-wrap">
+            <div class="how-bar-lbl"><span>Progress</span><span>70%</span></div>
+            <div class="how-bar-track">
+              <div class="how-bar-fill" style="width:70%"></div>
+            </div>
+          </div>
+          <div style="display:flex;gap:8px;margin-top:14px">
+            <span class="how-ui-badge success">Payment confirmed: Namuli A.</span>
+            <span class="how-ui-badge pending">Pledge pending: Okello D.</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- THE PROCESS, IN REAL LIFE -->
+    <section class="gallery-section">
+      <div class="wrap">
+        <div class="feat-header">
+          <span class="eyebrow">Not just a diagram</span>
+          <h2 class="display-sm">The same three steps, in real collections</h2>
+        </div>
+        <div class="gallery-grid">
+          <div class="gallery-card">
+            <img src="/assets/images/create.png" alt="A family creating a healthcare collection on Obumu"
+                 loading="lazy" />
+            <div class="gallery-card-overlay">
+              <div class="gallery-card-cap">
+                <h4>01 — Created in minutes</h4>
+                <p>A family set up a collection for a relative's hospital bill the same evening it was needed.</p>
+              </div>
+            </div>
+          </div>
+          <div class="gallery-card">
+            <img src="/assets/images/shared.png" alt="Guests contributing to an introduction ceremony via mobile money"
+                 loading="lazy" />
+            <div class="gallery-card-overlay">
+              <div class="gallery-card-cap">
+                <h4>02 — Shared and collected</h4>
+                <p>Guests paid straight from the WhatsApp link shared for an introduction ceremony.</p>
+              </div>
+            </div>
+          </div>
+          <div class="gallery-card">
+            <img src="/assets/images/tracked.png" alt="A community viewing a live, transparent collection total"
+                 loading="lazy" />
+            <div class="gallery-card-overlay">
+              <div class="gallery-card-cap">
+                <h4>03 — Tracked, live, by everyone</h4>
+                <p>Every contributor could see the running total update in real time, right on their phone.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq-section" id="faq">
+      <div class="wrap-sm">
+        <div class="how-header">
+          <span class="eyebrow">Common questions</span>
+          <h2 class="display-sm">Answers before you start</h2>
+          <p class="lead" style="text-align:center;margin:0 auto;max-width:520px">The details people usually ask
+            about before they create their first collection.</p>
+          </div>
+          <div class="faq-list">
+            <details class="faq-item" open>
+              <summary>
+                <span>Does Obumu charge a fee?</span>
+                <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+                  <path d="M5 7.5 10 12.5 15 7.5" />
+                </svg>
+              </summary>
+              <p>Creating a collection is free. A small, clearly shown service fee only applies once money is
+                withdrawn, so there are never any hidden costs while you are collecting.</p>
+              </details>
+              <details class="faq-item">
+                <summary>
+                  <span>How fast can I withdraw what's collected?</span>
+                  <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+                    <path d="M5 7.5 10 12.5 15 7.5" />
+                  </svg>
+                </summary>
+                <p>Payouts to MTN MoMo or Airtel Money are processed instantly once you request a withdrawal.
+                  Bank transfers typically settle within one business day.</p>
+                </details>
+                <details class="faq-item">
+                  <summary>
+                    <span>What happens if a pledge is never paid?</span>
+                    <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+                      <path d="M5 7.5 10 12.5 15 7.5" />
+                    </svg>
+                  </summary>
+                  <p>Pledgers get automatic reminders as the deadline nears. Unpaid pledges stay clearly marked
+                    as outstanding on the dashboard, so the total collected always reflects real money in hand.</p>
+                  </details>
+                  <details class="faq-item">
+                    <summary>
+                      <span>Can more than one person manage a collection?</span>
+                      <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+                        <path d="M5 7.5 10 12.5 15 7.5" />
+                      </svg>
+                    </summary>
+                    <p>Yes. Invite co-organisers to view the dashboard, respond to contributors, and request payouts,
+                      without ever sharing a single login.</p>
+                    </details>
+                    <details class="faq-item">
+                      <summary>
+                        <span>Is my money and data protected?</span>
+                        <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+                          <path d="M5 7.5 10 12.5 15 7.5" />
+                        </svg>
+                      </summary>
+                      <p>Every transaction runs over licensed, regulated payment rails with bank-grade encryption,
+                        and every contributor can see a live, itemised record of what has come in.</p>
+                      </details>
+                    </div>
+                  </div>
+                </section>
+
+                <!-- TESTIMONIALS -->
+                <section class="trust-section" id="reviews">
+                  <div class="wrap trust-header" data-r>
+                    <span class="eyebrow">From idea to paid out</span>
+                    <h2 class="display-sm" style="text-align:center;margin-bottom:14px;color:#fff">Three steps.<em> Real results.</em></h2>
+                    <p style="text-align:center;font-size:1rem;color:rgba(245,200,66,.6)">Organisers on exactly how the process felt, start to finish.</p>
+                  </div>
+                  <div class="wrap">
+                    <div class="trust-heroes">
+                      <div class="trust-hero glass-card-dark" data-r="l">
+                        <div class="stars">
+                          <svg viewBox="0 0 20 20" fill="currentColor" style="color:var(--orange)"><path d="M10 1.5l2.6 5.6 6.1.6-4.6 4.2 1.3 6-5.4-3.1-5.4 3.1 1.3-6L1.3 7.7l6.1-.6L10 1.5Z"/></svg>
+                          <svg viewBox="0 0 20 20" fill="currentColor" style="color:var(--orange)"><path d="M10 1.5l2.6 5.6 6.1.6-4.6 4.2 1.3 6-5.4-3.1-5.4 3.1 1.3-6L1.3 7.7l6.1-.6L10 1.5Z"/></svg>
+                          <svg viewBox="0 0 20 20" fill="currentColor" style="color:var(--orange)"><path d="M10 1.5l2.6 5.6 6.1.6-4.6 4.2 1.3 6-5.4-3.1-5.4 3.1 1.3-6L1.3 7.7l6.1-.6L10 1.5Z"/></svg>
+                          <svg viewBox="0 0 20 20" fill="currentColor" style="color:var(--orange)"><path d="M10 1.5l2.6 5.6 6.1.6-4.6 4.2 1.3 6-5.4-3.1-5.4 3.1 1.3-6L1.3 7.7l6.1-.6L10 1.5Z"/></svg>
+                          <svg viewBox="0 0 20 20" fill="currentColor" style="color:var(--orange)"><path d="M10 1.5l2.6 5.6 6.1.6-4.6 4.2 1.3 6-5.4-3.1-5.4 3.1 1.3-6L1.3 7.7l6.1-.6L10 1.5Z"/></svg>
+                        </div>
+                        <p class="trust-hero-quote">"We set up Tendo's surgery collection the same evening we got the
+                          hospital quote. Within an hour the link was moving in three WhatsApp groups."</p>
+                        <div class="trust-hero-who">
+                          <div class="trust-hero-initials">TF</div>
+                          <div>
+                            <div class="trust-hero-name">The Tendo Family</div>
+                            <div class="trust-hero-loc">Jinja</div>
+                          </div>
+                          <div class="trust-hero-amount"><strong>2 hrs</strong><span>to first payment</span></div>
+                        </div>
+                      </div>
+                      <div class="trust-hero glass-card-dark" data-r>
+                        <div class="stars">
+                          <svg viewBox="0 0 20 20" fill="currentColor" style="color:var(--orange)"><path d="M10 1.5l2.6 5.6 6.1.6-4.6 4.2 1.3 6-5.4-3.1-5.4 3.1 1.3-6L1.3 7.7l6.1-.6L10 1.5Z"/></svg>
+                          <svg viewBox="0 0 20 20" fill="currentColor" style="color:var(--orange)"><path d="M10 1.5l2.6 5.6 6.1.6-4.6 4.2 1.3 6-5.4-3.1-5.4 3.1 1.3-6L1.3 7.7l6.1-.6L10 1.5Z"/></svg>
+                          <svg viewBox="0 0 20 20" fill="currentColor" style="color:var(--orange)"><path d="M10 1.5l2.6 5.6 6.1.6-4.6 4.2 1.3 6-5.4-3.1-5.4 3.1 1.3-6L1.3 7.7l6.1-.6L10 1.5Z"/></svg>
+                          <svg viewBox="0 0 20 20" fill="currentColor" style="color:var(--orange)"><path d="M10 1.5l2.6 5.6 6.1.6-4.6 4.2 1.3 6-5.4-3.1-5.4 3.1 1.3-6L1.3 7.7l6.1-.6L10 1.5Z"/></svg>
+                          <svg viewBox="0 0 20 20" fill="currentColor" style="color:var(--orange)"><path d="M10 1.5l2.6 5.6 6.1.6-4.6 4.2 1.3 6-5.4-3.1-5.4 3.1 1.3-6L1.3 7.7l6.1-.6L10 1.5Z"/></svg>
+                        </div>
+                        <p class="trust-hero-quote">"The Ndejje borehole fund took eleven weeks. Every parent could
+                          see the total climb on their own phone, so nobody had to keep asking me for updates."</p>
+                        <div class="trust-hero-who">
+                          <div class="trust-hero-initials" style="background:var(--orange)">NC</div>
+                          <div>
+                            <div class="trust-hero-name">Ndejje P/S Committee</div>
+                            <div class="trust-hero-loc">Wakiso</div>
+                          </div>
+                          <div class="trust-hero-amount"><strong>312</strong><span>contributors</span></div>
+                        </div>
+                      </div>
+                      <div class="trust-hero glass-card-dark" data-r="r">
+                        <div class="stars">
+                          <svg viewBox="0 0 20 20" fill="currentColor" style="color:var(--orange)"><path d="M10 1.5l2.6 5.6 6.1.6-4.6 4.2 1.3 6-5.4-3.1-5.4 3.1 1.3-6L1.3 7.7l6.1-.6L10 1.5Z"/></svg>
+                          <svg viewBox="0 0 20 20" fill="currentColor" style="color:var(--orange)"><path d="M10 1.5l2.6 5.6 6.1.6-4.6 4.2 1.3 6-5.4-3.1-5.4 3.1 1.3-6L1.3 7.7l6.1-.6L10 1.5Z"/></svg>
+                          <svg viewBox="0 0 20 20" fill="currentColor" style="color:var(--orange)"><path d="M10 1.5l2.6 5.6 6.1.6-4.6 4.2 1.3 6-5.4-3.1-5.4 3.1 1.3-6L1.3 7.7l6.1-.6L10 1.5Z"/></svg>
+                          <svg viewBox="0 0 20 20" fill="currentColor" style="color:var(--orange)"><path d="M10 1.5l2.6 5.6 6.1.6-4.6 4.2 1.3 6-5.4-3.1-5.4 3.1 1.3-6L1.3 7.7l6.1-.6L10 1.5Z"/></svg>
+                          <svg viewBox="0 0 20 20" fill="currentColor" style="color:var(--orange)"><path d="M10 1.5l2.6 5.6 6.1.6-4.6 4.2 1.3 6-5.4-3.1-5.4 3.1 1.3-6L1.3 7.7l6.1-.6L10 1.5Z"/></svg>
+                        </div>
+                        <p class="trust-hero-quote">"Requesting the payout and having it land on my MTN line the
+                          same afternoon, after months of doing burials the old way with a notebook, felt unreal."</p>
+                        <div class="trust-hero-who">
+                          <div class="trust-hero-initials" style="background:#1a9e52">BK</div>
+                          <div>
+                            <div class="trust-hero-name">Bukenya Kaggwa</div>
+                            <div class="trust-hero-loc">Mukono</div>
+                          </div>
+                          <div class="trust-hero-amount"><strong>Same day</strong><span>payout</span></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+
+                <!-- CTA -->
+                <section class="cta-section" id="start">
+                  <div class="cta-glass">
+                    <div class="wrap-xs">
+                      <span class="eyebrow"
+                            style="display:block;margin-bottom:18px;position:relative;z-index:1;color:var(--orange)">Ready?</span>
+                      <h2 class="cta-h">Start your<br>collection <em>today.</em></h2>
+                      <p class="cta-p">Set up your first collection in minutes. Free to start. Easy to use.</p>
+                      <div class="cta-btns">
+                        <a href="http://209.209.42.109:5000/Obumu/Accounts/Register" class="btn btn-orange btn-lg">Create your
+                          account</a>
+                          <a href="/Features" class="btn btn-outline-white btn-lg">See all features</a>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+
+                  <partial name="_Footer" />
+                </body>
+
+              </html>

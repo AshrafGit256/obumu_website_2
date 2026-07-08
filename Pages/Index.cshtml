@@ -1,0 +1,241 @@
+@page
+@model IndexModel
+@{
+  Layout = null;
+  ViewData["Title"] = "Obumu - Community Contributions & Pledges";
+  ViewData["ActiveNav"] = "home";
+}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <partial name="_Head" />
+</head>
+
+<body class="home-redesign">
+  <partial name="_Nav" />
+
+  <main>
+    <section class="atelier-hero" id="top">
+      <div class="atelier-hero-media" aria-hidden="true">
+        <img src="/assets/images/events/togetherness.png" alt="" />
+      </div>
+      <div class="atelier-hero-shade" aria-hidden="true"></div>
+
+      <div class="wrap atelier-hero-grid">
+        <div class="atelier-copy">
+          <div class="atelier-kicker">
+            <span></span>
+            Community money, handled with dignity
+          </div>
+          <h1>Collect, pledge, and account for every shilling in one beautiful place.</h1>
+          <p>
+            Obumu helps Ugandan families, friends, churches, schools, and communities raise money with transparent
+            payment links, pledge reminders, instant mobile money payouts, and a live record everyone can trust.
+          </p>
+          <div class="atelier-actions">
+            <a href="http://209.209.42.109:5000/Obumu/Accounts/Register" class="btn btn-orange btn-lg">Create a collection</a>
+            <a href="#how" class="btn btn-outline-white btn-lg">See how it works</a>
+          </div>
+        </div>
+
+        <div class="atelier-console" aria-label="Obumu collection preview">
+          <div class="console-top">
+            <div>
+              <span class="console-label">Live collection</span>
+              <strong>Nalwanga Introduction</strong>
+            </div>
+            <span class="console-status">Live</span>
+          </div>
+          <div class="console-amount">
+            <span>Collected</span>
+            <strong>UGX 13,600,000</strong>
+          </div>
+          <div class="console-progress">
+            <div class="console-progress-head">
+              <span>Goal progress</span>
+              <strong>68%</strong>
+            </div>
+            <div class="console-track"><span style="width:68%"></span></div>
+          </div>
+          <div class="console-metrics">
+            <div><span>Contributors</span><strong>312</strong></div>
+            <div><span>Pledges</span><strong>48</strong></div>
+            <div><span>Channels</span><strong>4</strong></div>
+          </div>
+          <div class="console-payments">
+            <span>MTN MoMo</span>
+            <span>Airtel</span>
+            <span>Visa</span>
+            <span>Bank</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="proof-ribbon" aria-label="Obumu impact">
+      <div class="wrap proof-grid">
+        <div><strong>25,000+</strong><span>Ugandans served</span></div>
+        <div><strong>UGX 2.4B+</strong><span>Collected transparently</span></div>
+        <div><strong>4,800+</strong><span>Community collections</span></div>
+        <div><strong>Instant</strong><span>Mobile money payouts</span></div>
+      </div>
+    </section>
+
+    <section class="editorial-section" id="how">
+      <div class="wrap split-heading">
+        <span class="eyebrow">How it works</span>
+        <h2 class="display-sm">A clear path from need to contribution to accountability.</h2>
+        <p class="lead">The best fundraising experience is calm: people know where to pay, organisers know what came in, and everybody sees the same truth.</p>
+      </div>
+
+      <div class="wrap ritual-grid">
+        <article class="ritual-card">
+          <span class="ritual-number">01</span>
+          <h3>Create the cause</h3>
+          <p>Give your collection a name, amount, story, and date. Obumu prepares a clean payment link you can share immediately.</p>
+        </article>
+        <article class="ritual-card feature">
+          <span class="ritual-number">02</span>
+          <h3>Share one link</h3>
+          <p>Contributors pay by MTN, Airtel, Visa, or bank transfer. People can pledge now and pay later without confusing the real total.</p>
+        </article>
+        <article class="ritual-card">
+          <span class="ritual-number">03</span>
+          <h3>Track and withdraw</h3>
+          <p>Watch progress live, export statements, and withdraw to mobile money or bank when the collection is ready.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="product-stage">
+      <div class="wrap product-grid">
+        <div class="product-copy">
+          <span class="eyebrow">The organiser view</span>
+          <h2 class="display-sm">A dashboard that feels like control, not paperwork.</h2>
+          <p class="lead">Obumu turns the old notebook, WhatsApp screenshots, and payment guessing into a single calm operating room for your collection.</p>
+          <ul class="product-list">
+            <li>Real-time totals and pledge status</li>
+            <li>Contributor records and exportable statements</li>
+            <li>Payment channels already familiar in Uganda</li>
+          </ul>
+        </div>
+
+        <div class="dashboard-art" aria-label="Obumu dashboard mockup">
+          <div class="dash-window">
+            <div class="dash-bar">
+              <span></span><span></span><span></span>
+              <strong>app.obumu.ug/dashboard</strong>
+            </div>
+            <div class="dash-body">
+              <aside>
+                <span class="dash-logo-mark">O</span>
+                <span class="active">Overview</span>
+                <span>Collections</span>
+                <span>Pledges</span>
+                <span>Payouts</span>
+              </aside>
+              <div class="dash-main">
+                <div class="dash-title-row">
+                  <div>
+                    <small>This month</small>
+                    <h3>Collections overview</h3>
+                  </div>
+                  <span>Verified</span>
+                </div>
+                <div class="dash-cards">
+                  <div><span>Total collected</span><strong>UGX 47.2M</strong></div>
+                  <div><span>Outstanding pledges</span><strong>UGX 8.4M</strong></div>
+                  <div><span>Contributors</span><strong>1,240</strong></div>
+                </div>
+                <div class="dash-table">
+                  <div><span>Nalwanga Intro</span><strong>13.6M</strong><em>Active</em></div>
+                  <div><span>Tendo Surgery</span><strong>18.1M</strong><em>Review</em></div>
+                  <div><span>Ndejje Borehole</span><strong>26.5M</strong><em>Paid out</em></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="phone-card">
+            <span class="phone-notch"></span>
+            <strong>Pay UGX 50,000</strong>
+            <p>Nalwanga Introduction</p>
+            <button type="button">Pay with MTN MoMo</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="moments-section">
+      <div class="wrap split-heading">
+        <span class="eyebrow">Built for real life</span>
+        <h2 class="display-sm">Not abstract fintech. Real moments that need trust.</h2>
+      </div>
+      <div class="wrap moments-grid">
+        <article class="moment-card tall">
+          <img src="/assets/images/events/Tendo_surgery.jpg" alt="Medical fundraising supported by Obumu" />
+          <div><span>Healthcare</span><strong>Tendo's surgery fund</strong></div>
+        </article>
+        <article class="moment-card">
+          <img src="/assets/images/events/clean_water.jpg" alt="School borehole fundraising supported by Obumu" />
+          <div><span>Community</span><strong>Ndejje borehole project</strong></div>
+        </article>
+        <article class="moment-card">
+          <img src="/assets/images/events/introductions.png" alt="Traditional ceremony fundraising supported by Obumu" />
+          <div><span>Ceremonies</span><strong>Introduction contributions</strong></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="partners-panel" id="banks">
+      <div class="wrap">
+        <span class="partners-strip-label">Payment rails people already know</span>
+        <div class="partners-grid" aria-label="Payment partners">
+          <img src="/assets/images/MTN.png" alt="MTN Mobile Money" />
+          <img src="/assets/images/airtel.webp" alt="Airtel Money" />
+          <img src="/assets/images/visa.png" alt="Visa" />
+          <img src="/assets/images/centenarybank_logo.jpg" alt="Centenary Bank" />
+          <img src="/assets/images/stanbic_logo.png" alt="Stanbic Bank" />
+          <img src="/assets/images/DFCU_logo.png" alt="DFCU Bank" />
+          <img src="/assets/images/Absa_Logo.svg" alt="Absa Bank" />
+          <img src="/assets/images/equity-bank_logo.webp" alt="Equity Bank" />
+        </div>
+      </div>
+    </section>
+
+    <section class="trust-section redesigned-trust">
+      <div class="wrap trust-header" data-r>
+        <span class="eyebrow">Built on trust</span>
+        <h2 class="display-sm">Transparency is the product.</h2>
+        <p>Every collection is designed so organisers, contributors, and pledgers can see the same record from start to payout.</p>
+      </div>
+      <div class="wrap trust-heroes">
+        <div class="trust-hero glass-card-dark" data-r="l">
+          <h3 class="trust-pillar-h">Bank-grade protection</h3>
+          <p class="trust-hero-quote">Payments move through regulated rails with encryption and transaction records built in.</p>
+        </div>
+        <div class="trust-hero glass-card-dark" data-r>
+          <h3 class="trust-pillar-h">Visible totals</h3>
+          <p class="trust-hero-quote">Collected amounts, pledges, contributors, and payout history are easy to verify.</p>
+        </div>
+        <div class="trust-hero glass-card-dark" data-r="r">
+          <h3 class="trust-pillar-h">No spreadsheet chaos</h3>
+          <p class="trust-hero-quote">The product replaces manual lists with one shared source of truth for the whole community.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="final-invite" id="start">
+      <div class="wrap final-invite-inner">
+        <span class="eyebrow">Ready</span>
+        <h2>Your community has the need. Obumu gives it the system.</h2>
+        <a href="http://209.209.42.109:5000/Obumu/Accounts/Register" class="btn btn-orange btn-lg">Start collecting now</a>
+      </div>
+    </section>
+  </main>
+
+  <partial name="_Footer" />
+</body>
+
+</html>

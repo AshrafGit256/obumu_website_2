@@ -1,0 +1,193 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\hp\\Downloads\\ObumuWeb_fintech_improved\\ObumuWeb_fintech\\wwwroot\\assets\\images\\Absa_Logo.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\Absa_Logo.svg"
+    },
+    {
+      "Id": "C:\\Users\\hp\\Downloads\\ObumuWeb_fintech_improved\\ObumuWeb_fintech\\wwwroot\\assets\\images\\DFCU_logo.png",
+      "PackagePath": "staticwebassets\\assets\\images\\DFCU_logo.png"
+    },
+    {
+      "Id": "C:\\Users\\hp\\Downloads\\ObumuWeb_fintech_improved\\ObumuWeb_fintech\\wwwroot\\assets\\images\\HousingFinance_logo.png",
+      "PackagePath": "staticwebassets\\assets\\images\\HousingFinance_logo.png"
+    },
+    {
+      "Id": "C:\\Users\\hp\\Downloads\\ObumuWeb_fintech_improved\\ObumuWeb_fintech\\wwwroot\\assets\\images\\IG.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\IG.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hp\\Downloads\\ObumuWeb_fintech_improved\\ObumuWeb_fintech\\wwwroot\\assets\\images\\MTN.png",
+      "PackagePath": "staticwebassets\\assets\\images\\MTN.png"
+    },
+    {
+      "Id": "C:\\Users\\hp\\Downloads\\ObumuWeb_fintech_improved\\ObumuWeb_fintech\\wwwroot\\assets\\images\\airtel.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\airtel.webp"
+    },
+    {
+      "Id": "C:\\Users\\hp\\Downloads\\ObumuWeb_fintech_improved\\ObumuWeb_fintech\\wwwroot\\assets\\images\\app_store.png",
+      "PackagePath": "staticwebassets\\assets\\images\\app_store.png"
+    },
+    {
+      "Id": "C:\\Users\\hp\\Downloads\\ObumuWeb_fintech_improved\\ObumuWeb_fintech\\wwwroot\\assets\\images\\bank_transfer.png",
+      "PackagePath": "staticwebassets\\assets\\images\\bank_transfer.png"
+    },
+    {
+      "Id": "C:\\Users\\hp\\Downloads\\ObumuWeb_fintech_improved\\ObumuWeb_fintech\\wwwroot\\assets\\images\\centenarybank_logo.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\centenarybank_logo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hp\\Downloads\\ObumuWeb_fintech_improved\\ObumuWeb_fintech\\wwwroot\\assets\\images\\create.png",
+      "PackagePath": "staticwebassets\\assets\\images\\create.png"
+    },
+    {
+      "Id": "C:\\Users\\hp\\Downloads\\ObumuWeb_fintech_improved\\ObumuWeb_fintech\\wwwroot\\assets\\images\\desktop.png",
+      "PackagePath": "staticwebassets\\assets\\images\\desktop.png"
+    },
+    {
+      "Id": "C:\\Users\\hp\\Downloads\\ObumuWeb_fintech_improved\\ObumuWeb_fintech\\wwwroot\\assets\\images\\equity-bank_logo.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\equity-bank_logo.webp"
+    },
+    {
+      "Id": "C:\\Users\\hp\\Downloads\\ObumuWeb_fintech_improved\\ObumuWeb_fintech\\wwwroot\\assets\\images\\events\\Nalwanga's_introduction.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\events\\Nalwanga's_introduction.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hp\\Downloads\\ObumuWeb_fintech_improved\\ObumuWeb_fintech\\wwwroot\\assets\\images\\events\\Tendo_surgery.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\events\\Tendo_surgery.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hp\\Downloads\\ObumuWeb_fintech_improved\\ObumuWeb_fintech\\wwwroot\\assets\\images\\events\\burial.png",
+      "PackagePath": "staticwebassets\\assets\\images\\events\\burial.png"
+    },
+    {
+      "Id": "C:\\Users\\hp\\Downloads\\ObumuWeb_fintech_improved\\ObumuWeb_fintech\\wwwroot\\assets\\images\\events\\clean_water.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\events\\clean_water.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hp\\Downloads\\ObumuWeb_fintech_improved\\ObumuWeb_fintech\\wwwroot\\assets\\images\\events\\community&environment.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\events\\community&environment.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hp\\Downloads\\ObumuWeb_fintech_improved\\ObumuWeb_fintech\\wwwroot\\assets\\images\\events\\education.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\events\\education.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hp\\Downloads\\ObumuWeb_fintech_improved\\ObumuWeb_fintech\\wwwroot\\assets\\images\\events\\healthcare.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\events\\healthcare.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hp\\Downloads\\ObumuWeb_fintech_improved\\ObumuWeb_fintech\\wwwroot\\assets\\images\\events\\introductions.png",
+      "PackagePath": "staticwebassets\\assets\\images\\events\\introductions.png"
+    },
+    {
+      "Id": "C:\\Users\\hp\\Downloads\\ObumuWeb_fintech_improved\\ObumuWeb_fintech\\wwwroot\\assets\\images\\events\\new_classroom_block.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\events\\new_classroom_block.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hp\\Downloads\\ObumuWeb_fintech_improved\\ObumuWeb_fintech\\wwwroot\\assets\\images\\events\\obumu_logo2t.png",
+      "PackagePath": "staticwebassets\\assets\\images\\events\\obumu_logo2t.png"
+    },
+    {
+      "Id": "C:\\Users\\hp\\Downloads\\ObumuWeb_fintech_improved\\ObumuWeb_fintech\\wwwroot\\assets\\images\\events\\offering.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\events\\offering.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hp\\Downloads\\ObumuWeb_fintech_improved\\ObumuWeb_fintech\\wwwroot\\assets\\images\\events\\togetherness.png",
+      "PackagePath": "staticwebassets\\assets\\images\\events\\togetherness.png"
+    },
+    {
+      "Id": "C:\\Users\\hp\\Downloads\\ObumuWeb_fintech_improved\\ObumuWeb_fintech\\wwwroot\\assets\\images\\google_playstore.png",
+      "PackagePath": "staticwebassets\\assets\\images\\google_playstore.png"
+    },
+    {
+      "Id": "C:\\Users\\hp\\Downloads\\ObumuWeb_fintech_improved\\ObumuWeb_fintech\\wwwroot\\assets\\images\\linkedin.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\linkedin.webp"
+    },
+    {
+      "Id": "C:\\Users\\hp\\Downloads\\ObumuWeb_fintech_improved\\ObumuWeb_fintech\\wwwroot\\assets\\images\\mobile.png",
+      "PackagePath": "staticwebassets\\assets\\images\\mobile.png"
+    },
+    {
+      "Id": "C:\\Users\\hp\\Downloads\\ObumuWeb_fintech_improved\\ObumuWeb_fintech\\wwwroot\\assets\\images\\obumu_fav.png",
+      "PackagePath": "staticwebassets\\assets\\images\\obumu_fav.png"
+    },
+    {
+      "Id": "C:\\Users\\hp\\Downloads\\ObumuWeb_fintech_improved\\ObumuWeb_fintech\\wwwroot\\assets\\images\\obumu_logo1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\obumu_logo1.png"
+    },
+    {
+      "Id": "C:\\Users\\hp\\Downloads\\ObumuWeb_fintech_improved\\ObumuWeb_fintech\\wwwroot\\assets\\images\\obumu_logo2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\obumu_logo2.png"
+    },
+    {
+      "Id": "C:\\Users\\hp\\Downloads\\ObumuWeb_fintech_improved\\ObumuWeb_fintech\\wwwroot\\assets\\images\\obumu_logo2t.png",
+      "PackagePath": "staticwebassets\\assets\\images\\obumu_logo2t.png"
+    },
+    {
+      "Id": "C:\\Users\\hp\\Downloads\\ObumuWeb_fintech_improved\\ObumuWeb_fintech\\wwwroot\\assets\\images\\obumu_logo_main.png",
+      "PackagePath": "staticwebassets\\assets\\images\\obumu_logo_main.png"
+    },
+    {
+      "Id": "C:\\Users\\hp\\Downloads\\ObumuWeb_fintech_improved\\ObumuWeb_fintech\\wwwroot\\assets\\images\\postbank_uganda_ltd_logo.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\postbank_uganda_ltd_logo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hp\\Downloads\\ObumuWeb_fintech_improved\\ObumuWeb_fintech\\wwwroot\\assets\\images\\shared.png",
+      "PackagePath": "staticwebassets\\assets\\images\\shared.png"
+    },
+    {
+      "Id": "C:\\Users\\hp\\Downloads\\ObumuWeb_fintech_improved\\ObumuWeb_fintech\\wwwroot\\assets\\images\\stanbic_logo.png",
+      "PackagePath": "staticwebassets\\assets\\images\\stanbic_logo.png"
+    },
+    {
+      "Id": "C:\\Users\\hp\\Downloads\\ObumuWeb_fintech_improved\\ObumuWeb_fintech\\wwwroot\\assets\\images\\tiktok.avif",
+      "PackagePath": "staticwebassets\\assets\\images\\tiktok.avif"
+    },
+    {
+      "Id": "C:\\Users\\hp\\Downloads\\ObumuWeb_fintech_improved\\ObumuWeb_fintech\\wwwroot\\assets\\images\\tiktok.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\tiktok.webp"
+    },
+    {
+      "Id": "C:\\Users\\hp\\Downloads\\ObumuWeb_fintech_improved\\ObumuWeb_fintech\\wwwroot\\assets\\images\\tracked.png",
+      "PackagePath": "staticwebassets\\assets\\images\\tracked.png"
+    },
+    {
+      "Id": "C:\\Users\\hp\\Downloads\\ObumuWeb_fintech_improved\\ObumuWeb_fintech\\wwwroot\\assets\\images\\visa.png",
+      "PackagePath": "staticwebassets\\assets\\images\\visa.png"
+    },
+    {
+      "Id": "C:\\Users\\hp\\Downloads\\ObumuWeb_fintech_improved\\ObumuWeb_fintech\\wwwroot\\assets\\images\\x_logo.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\x_logo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hp\\Downloads\\ObumuWeb_fintech_improved\\ObumuWeb_fintech\\wwwroot\\assets\\images\\youtube.png",
+      "PackagePath": "staticwebassets\\assets\\images\\youtube.png"
+    },
+    {
+      "Id": "C:\\Users\\hp\\Downloads\\ObumuWeb_fintech_improved\\ObumuWeb_fintech\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\hp\\Downloads\\ObumuWeb_fintech_improved\\ObumuWeb_fintech\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ObumuWeb.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.ObumuWeb.props",
+      "PackagePath": "build\\ObumuWeb.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.ObumuWeb.props",
+      "PackagePath": "buildMultiTargeting\\ObumuWeb.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.ObumuWeb.props",
+      "PackagePath": "buildTransitive\\ObumuWeb.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

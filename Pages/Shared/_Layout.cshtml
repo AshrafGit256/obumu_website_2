@@ -1,0 +1,20 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Obumu</title>
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <style>
+        .error-page { max-width: 640px; margin: 80px auto; padding: 0 24px; font-family: var(--font-body); }
+        .error-page h1 { font-family: var(--font-head); color: var(--ink); }
+    </style>
+</head>
+<body>
+    <main class="error-page">
+        @RenderBody()
+    </main>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

@@ -1,0 +1,370 @@
+@page
+@model FeaturesModel
+@{
+  Layout = null;
+  ViewData["Title"] = "Features - Obumu";
+  ViewData["ActiveNav"] = "features";
+}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <partial name="_Head" />
+</head>
+
+<body>
+
+  <partial name="_Nav" />
+
+  <!-- HERO -->
+  <section class="hero hero-inner" style="--hero-img:url('/assets/images/events/clean_water.jpg')">
+    <div class="hero-blob"></div>
+    <div class="hero-main wrap">
+      <div class="hero-left">
+        <div class="hero-pill"><span class="pill-dot"></span>Everything included</div>
+        <h1>Every feature you need to run a <span style="color:var(--orange)">transparent collection.</span></h1>
+        <p class="hero-sub">
+          From real-time tracking to instant payouts, Obumu is built to remove the friction and
+          the guesswork from community fundraising. <strong>No hidden tiers. No surprises.</strong>
+        </p>
+        <div class="hero-cta">
+          <a href="http://209.209.42.109:5000/Obumu/Accounts/Register" class="btn btn-orange btn-lg">Get started
+            free</a>
+          <a href="/HowItWorks" class="btn btn-outline btn-lg">See how it works</a>
+        </div>
+      </div>
+      <div class="hero-right">
+        <div class="hero-visual-wrap">
+          <div class="hero-img-main">
+            <img src="/assets/images/events/clean_water.jpg" alt="Transparent community fundraising" loading="eager" style="width:100%;height:100%;object-fit:cover;opacity:0.45" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BIG BOLD CLAIM -->
+  <div class="claim-banner">
+    <div class="wrap claim-banner-text">
+      One platform. <em>MTN, Airtel &amp; Visa.</em> Zero spreadsheets.
+    </div>
+  </div>
+
+  <!-- STATS BAND -->
+  <div class="hero-stats">
+    <div class="hstat"><span class="hstat-num orange">25,000+</span><span class="hstat-lbl">Active users</span></div>
+    <div class="hstat"><span class="hstat-num">UGX 2.4B+</span><span class="hstat-lbl">Collected transparently</span></div>
+    <div class="hstat"><span class="hstat-num orange">4,800+</span><span class="hstat-lbl">Collections created</span></div>
+    <div class="hstat"><span class="hstat-num">9</span><span class="hstat-lbl">Banks &amp; payment rails</span></div>
+  </div>
+
+  <!-- FEATURE GRID -->
+  <section class="features-section" id="features">
+    <div class="wrap">
+      <div class="feat-header">
+        <span class="eyebrow">The full toolkit</span>
+        <h2 class="display-sm">Built for organisers, contributors, and pledgers alike</h2>
+      </div>
+      <div class="feat-grid">
+        <div class="feat-card" data-r>
+          <div class="feat-icon">
+            <svg viewBox="0 0 24 24" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M3 3v18h18" /><path d="M7 15l4-4 3 3 5-6" />
+            </svg>
+          </div>
+          <h3>Real-time tracking</h3>
+          <p>Watch your total update the moment a payment lands, no refreshing, no waiting.</p>
+        </div>
+        <div class="feat-card" data-r>
+          <div class="feat-icon">
+            <svg viewBox="0 0 24 24" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="2" y="5" width="20" height="14" rx="2" /><path d="M2 10h20" />
+            </svg>
+          </div>
+          <h3>Multiple payment methods</h3>
+          <p>MTN MoMo, Airtel Money, Visa, and direct bank transfer, all built in from day one.</p>
+        </div>
+        <div class="feat-card" data-r>
+          <div class="feat-icon">
+            <svg viewBox="0 0 24 24" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 5v14M5 12h14" />
+            </svg>
+          </div>
+          <h3>Pledge management</h3>
+          <p>Let people commit now and pay later, with automatic reminders as deadlines approach.</p>
+        </div>
+        <div class="feat-card" data-r>
+          <div class="feat-icon">
+            <svg viewBox="0 0 24 24" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7-10-7-10-7Z" /><circle cx="12" cy="12" r="3" />
+            </svg>
+          </div>
+          <h3>Transparent public ledger</h3>
+          <p>Every contributor and amount is visible to everyone in the collection, in real time.</p>
+        </div>
+        <div class="feat-card" data-r>
+          <div class="feat-icon">
+            <svg viewBox="0 0 24 24" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M13 2 3 14h7l-1 8 11-14h-7l1-6Z" />
+            </svg>
+          </div>
+          <h3>Fast payouts</h3>
+          <p>Withdraw collected funds directly to mobile money or your bank account in a few taps.</p>
+        </div>
+        <div class="feat-card" data-r>
+          <div class="feat-icon">
+            <svg viewBox="0 0 24 24" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 2 4 5v6c0 5.25 3.4 9.74 8 11 4.6-1.26 8-5.75 8-11V5l-8-3Z" />
+            </svg>
+          </div>
+          <h3>Bank-grade security</h3>
+          <p>End-to-end encryption and licensed, regulated payment rails protect every transaction.</p>
+        </div>
+        <div class="feat-card" data-r>
+          <div class="feat-icon">
+            <svg viewBox="0 0 24 24" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M6 2h9l5 5v15H6Z" /><path d="M15 2v5h5" /><path d="M9 13h6M9 17h6" />
+            </svg>
+          </div>
+          <h3>Downloadable statements</h3>
+          <p>Export a full, itemised statement of any collection whenever you need it.</p>
+        </div>
+        <div class="feat-card" data-r>
+          <div class="feat-icon">
+            <svg viewBox="0 0 24 24" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M17 21v-2a4 4 0 0 0-4-4H7a4 4 0 0 0-4 4v2" /><circle cx="10" cy="7" r="4" />
+              <path d="M22 21v-2a4 4 0 0 0-3-3.87" /><path d="M16 3.13a4 4 0 0 1 0 7.75" />
+            </svg>
+          </div>
+          <h3>Multi-organiser access</h3>
+          <p>Invite co-organisers to help manage a collection without sharing one login.</p>
+        </div>
+        <div class="feat-card" data-r>
+          <div class="feat-icon">
+            <svg viewBox="0 0 24 24" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="5" y="1" width="14" height="22" rx="2" /><path d="M9 19h6" />
+            </svg>
+          </div>
+          <h3>Works on any device</h3>
+          <p>A full web dashboard for organisers, and a lightweight mobile experience for everyone else.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURES IN THE REAL WORLD -->
+  <section class="gallery-section">
+    <div class="wrap">
+      <div class="feat-header">
+        <span class="eyebrow">See it in the real world</span>
+        <h2 class="display-sm">These features, in real Ugandan collections</h2>
+      </div>
+      <div class="gallery-grid">
+        <div class="gallery-card">
+          <img src="/assets/images/events/education.jpg" alt="A school fees collection tracked in real time on Obumu" loading="lazy" />
+          <div class="gallery-card-overlay">
+            <div class="gallery-card-cap">
+              <h4>Real-time tracking, in action</h4>
+              <p>A school fees drive where every parent could watch the total update live.</p>
+            </div>
+          </div>
+        </div>
+        <div class="gallery-card">
+          <img src="/assets/images/events/togetherness.png" alt="Contributors paying via mobile money on Obumu" loading="lazy" />
+          <div class="gallery-card-overlay">
+            <div class="gallery-card-cap">
+              <h4>Every payment method, one link</h4>
+              <p>MTN MoMo, Airtel Money and Visa side by side, so no one is left out.</p>
+            </div>
+          </div>
+        </div>
+        <div class="gallery-card">
+          <img src="/assets/images/events/community&amp;environment.jpg" alt="A community environment project funded through pledges" loading="lazy" />
+          <div class="gallery-card-overlay">
+            <div class="gallery-card-cap">
+              <h4>Pledges, kept honest</h4>
+              <p>An environment project where automatic reminders kept pledgers accountable.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- APP SECTION webapp + mobile mockups -->
+  <section class="app-section">
+    <div class="wrap">
+      <div class="app-section-inner">
+        <div class="app-text" data-r="l">
+          <span class="eyebrow">Use it anywhere</span>
+          <h2 class="display-sm">On your phone.<br><em>On your laptop.</em><br>On any device.</h2>
+          <p class="lead">Obumu works in your browser no app to download. Organisers can manage collections from a
+            laptop. Contributors and pledgers can pay straight from a WhatsApp link on their phone.</p>
+          <ul class="app-list">
+            <li>
+              <div class="app-list-icon">
+                <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
+                  <rect x="5" y="1" width="10" height="18" rx="2" /><path d="M9 16h2" />
+                </svg>
+              </div>
+              <div><strong>Mobile-friendly</strong><p>Works perfectly on any phone, even a basic one.</p></div>
+            </li>
+            <li>
+              <div class="app-list-icon">
+                <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
+                  <rect x="1" y="3" width="18" height="13" rx="2" /><path d="M7 19h6M10 16v3" />
+                </svg>
+              </div>
+              <div><strong>Full web dashboard</strong><p>Manage everything from a computer when you need more detail.</p></div>
+            </li>
+            <li>
+              <div class="app-list-icon">
+                <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
+                  <path d="M18 13.5A9 9 0 115.5 2M18 2l-9 9" /><path d="M13 2h5v5" />
+                </svg>
+              </div>
+              <div><strong>Share across all platforms</strong><p>One link, sent anywhere WhatsApp, Facebook, SMS, email. People pay without creating an account.</p></div>
+            </li>
+          </ul>
+          <div style="margin-top:32px;display:flex;gap:12px;flex-wrap:wrap">
+            <a href="http://209.209.42.109:5000/Obumu/Accounts/Register" class="btn btn-orange btn-lg">Start collecting</a>
+            <a href="/HowItWorks" class="btn btn-outline btn-lg">See how it works</a>
+          </div>
+        </div>
+        <div class="app-mockups" data-r="r">
+          <div class="webapp-mockup glass-card">
+            <div class="webapp-bar">
+              <div class="webapp-dots"><span></span><span></span><span></span></div>
+              <div class="webapp-url">app.obumu.ug/dashboard</div>
+            </div>
+            <div class="webapp-content">
+              <div class="webapp-sidebar">
+                <div class="webapp-nav-item active">Dashboard</div>
+                <div class="webapp-nav-item">Collections</div>
+                <div class="webapp-nav-item">Pledges</div>
+                <div class="webapp-nav-item">Payouts</div>
+                <div class="webapp-nav-item">Settings</div>
+              </div>
+              <div class="webapp-main">
+                <div class="webapp-main-title">Collections overview</div>
+                <div class="webapp-stats-row">
+                  <div class="webapp-stat-card"><span class="webapp-stat-val orange">UGX 47.2M</span><span class="webapp-stat-lbl">Total collected</span></div>
+                  <div class="webapp-stat-card"><span class="webapp-stat-val">1,240</span><span class="webapp-stat-lbl">Contributors</span></div>
+                  <div class="webapp-stat-card"><span class="webapp-stat-val green">UGX 8.4M</span><span class="webapp-stat-lbl">Pledged</span></div>
+                </div>
+                <div class="webapp-table-head"><span>Event</span><span>Collected</span><span>Status</span></div>
+                <div class="webapp-table-row"><span>Nalwanga Intro</span><span class="hi-orange">13.6M</span><span class="badge-active">Active</span></div>
+                <div class="webapp-table-row"><span>Ssemanda Burial</span><span>9.1M</span><span class="badge-done">Paid out</span></div>
+                <div class="webapp-table-row dim"><span>Gulu School</span><span>26.5M</span><span class="badge-active">Active</span></div>
+              </div>
+            </div>
+          </div>
+          <div class="mobile-float glass-card">
+            <div class="mobile-float-notch"></div>
+            <div class="mobile-float-screen">
+              <div class="mobile-float-title">Nalwanga Introduction</div>
+              <div class="mobile-float-amount hi-orange">UGX 13,600,000</div>
+              <div class="mobile-float-sub">collected of UGX 20M goal</div>
+              <div class="how-bar-track" style="margin:10px 0 6px">
+                <div class="how-bar-fill" style="width:68%"></div>
+              </div>
+              <div style="font-size:.65rem;color:rgba(255,255,255,.45);margin-bottom:10px">312 contributors · 48 pledges</div>
+              <div class="mobile-float-btn">Pay now MTN MoMo</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="trust-section" id="reviews">
+    <div class="wrap trust-header" data-r>
+      <span class="eyebrow">What organisers say</span>
+      <h2 class="display-sm" style="text-align:center;margin-bottom:14px;color:#fff">Loved by <em>the people using it.</em></h2>
+      <p style="text-align:center;font-size:1rem;color:rgba(245,200,66,.6)">Real feedback from Ugandans who've used Obumu's
+        features to run their own collections.</p>
+    </div>
+    <div class="wrap">
+      <div class="trust-heroes">
+        <div class="trust-hero glass-card-dark" data-r="l">
+          <div class="stars">
+            <svg viewBox="0 0 20 20" fill="currentColor" style="color:var(--orange)"><path d="M10 1.5l2.6 5.6 6.1.6-4.6 4.2 1.3 6-5.4-3.1-5.4 3.1 1.3-6L1.3 7.7l6.1-.6L10 1.5Z"/></svg>
+            <svg viewBox="0 0 20 20" fill="currentColor" style="color:var(--orange)"><path d="M10 1.5l2.6 5.6 6.1.6-4.6 4.2 1.3 6-5.4-3.1-5.4 3.1 1.3-6L1.3 7.7l6.1-.6L10 1.5Z"/></svg>
+            <svg viewBox="0 0 20 20" fill="currentColor" style="color:var(--orange)"><path d="M10 1.5l2.6 5.6 6.1.6-4.6 4.2 1.3 6-5.4-3.1-5.4 3.1 1.3-6L1.3 7.7l6.1-.6L10 1.5Z"/></svg>
+            <svg viewBox="0 0 20 20" fill="currentColor" style="color:var(--orange)"><path d="M10 1.5l2.6 5.6 6.1.6-4.6 4.2 1.3 6-5.4-3.1-5.4 3.1 1.3-6L1.3 7.7l6.1-.6L10 1.5Z"/></svg>
+            <svg viewBox="0 0 20 20" fill="currentColor" style="color:var(--orange)"><path d="M10 1.5l2.6 5.6 6.1.6-4.6 4.2 1.3 6-5.4-3.1-5.4 3.1 1.3-6L1.3 7.7l6.1-.6L10 1.5Z"/></svg>
+          </div>
+          <p class="trust-hero-quote">"The pledge reminders alone saved us. Nobody had to be chased for money after
+            the introduction, Obumu did the reminding for us, automatically."</p>
+          <div class="trust-hero-who">
+            <div class="trust-hero-initials">NA</div>
+            <div>
+              <div class="trust-hero-name">Namuli Agnes</div>
+              <div class="trust-hero-loc">Kampala</div>
+            </div>
+            <div class="trust-hero-amount"><strong>UGX 13.6M</strong><span>raised</span></div>
+          </div>
+        </div>
+        <div class="trust-hero glass-card-dark" data-r>
+          <div class="stars">
+            <svg viewBox="0 0 20 20" fill="currentColor" style="color:var(--orange)"><path d="M10 1.5l2.6 5.6 6.1.6-4.6 4.2 1.3 6-5.4-3.1-5.4 3.1 1.3-6L1.3 7.7l6.1-.6L10 1.5Z"/></svg>
+            <svg viewBox="0 0 20 20" fill="currentColor" style="color:var(--orange)"><path d="M10 1.5l2.6 5.6 6.1.6-4.6 4.2 1.3 6-5.4-3.1-5.4 3.1 1.3-6L1.3 7.7l6.1-.6L10 1.5Z"/></svg>
+            <svg viewBox="0 0 20 20" fill="currentColor" style="color:var(--orange)"><path d="M10 1.5l2.6 5.6 6.1.6-4.6 4.2 1.3 6-5.4-3.1-5.4 3.1 1.3-6L1.3 7.7l6.1-.6L10 1.5Z"/></svg>
+            <svg viewBox="0 0 20 20" fill="currentColor" style="color:var(--orange)"><path d="M10 1.5l2.6 5.6 6.1.6-4.6 4.2 1.3 6-5.4-3.1-5.4 3.1 1.3-6L1.3 7.7l6.1-.6L10 1.5Z"/></svg>
+            <svg viewBox="0 0 20 20" fill="currentColor" style="color:var(--orange)"><path d="M10 1.5l2.6 5.6 6.1.6-4.6 4.2 1.3 6-5.4-3.1-5.4 3.1 1.3-6L1.3 7.7l6.1-.6L10 1.5Z"/></svg>
+          </div>
+          <p class="trust-hero-quote">"Guests paid in MTN, Airtel and Visa, all from one link. I didn't have to
+            tell anyone which app to download or which number to send to."</p>
+          <div class="trust-hero-who">
+            <div class="trust-hero-initials" style="background:var(--orange)">OD</div>
+            <div>
+              <div class="trust-hero-name">Okello David</div>
+              <div class="trust-hero-loc">Gulu</div>
+            </div>
+            <div class="trust-hero-amount"><strong>UGX 9.1M</strong><span>raised</span></div>
+          </div>
+        </div>
+        <div class="trust-hero glass-card-dark" data-r="r">
+          <div class="stars">
+            <svg viewBox="0 0 20 20" fill="currentColor" style="color:var(--orange)"><path d="M10 1.5l2.6 5.6 6.1.6-4.6 4.2 1.3 6-5.4-3.1-5.4 3.1 1.3-6L1.3 7.7l6.1-.6L10 1.5Z"/></svg>
+            <svg viewBox="0 0 20 20" fill="currentColor" style="color:var(--orange)"><path d="M10 1.5l2.6 5.6 6.1.6-4.6 4.2 1.3 6-5.4-3.1-5.4 3.1 1.3-6L1.3 7.7l6.1-.6L10 1.5Z"/></svg>
+            <svg viewBox="0 0 20 20" fill="currentColor" style="color:var(--orange)"><path d="M10 1.5l2.6 5.6 6.1.6-4.6 4.2 1.3 6-5.4-3.1-5.4 3.1 1.3-6L1.3 7.7l6.1-.6L10 1.5Z"/></svg>
+            <svg viewBox="0 0 20 20" fill="currentColor" style="color:var(--orange)"><path d="M10 1.5l2.6 5.6 6.1.6-4.6 4.2 1.3 6-5.4-3.1-5.4 3.1 1.3-6L1.3 7.7l6.1-.6L10 1.5Z"/></svg>
+            <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" style="color:var(--orange)"><path d="M10 1.5l2.6 5.6 6.1.6-4.6 4.2 1.3 6-5.4-3.1-5.4 3.1 1.3-6L1.3 7.7l6.1-.6L10 1.5Z"/></svg>
+          </div>
+          <p class="trust-hero-quote">"Being able to export a statement at the end meant no one in the family had
+            to take our word for it. The numbers were right there, itemised."</p>
+          <div class="trust-hero-who">
+            <div class="trust-hero-initials" style="background:#1a9e52">SP</div>
+            <div>
+              <div class="trust-hero-name">Ssemanda Peter</div>
+              <div class="trust-hero-loc">Mbarara</div>
+            </div>
+            <div class="trust-hero-amount"><strong>UGX 26.5M</strong><span>raised</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-section" id="start">
+    <div class="cta-glass">
+      <div class="wrap-xs">
+        <span class="eyebrow" style="display:block;margin-bottom:18px;position:relative;z-index:1;color:var(--orange)">Ready?</span>
+        <h2 class="cta-h">See it all<br>in <em>action.</em></h2>
+        <p class="cta-p">Set up your first collection in minutes. Free to start. Easy to use.</p>
+        <div class="cta-btns">
+          <a href="http://209.209.42.109:5000/Obumu/Accounts/Register" class="btn btn-orange btn-lg">Create your
+            account</a>
+          <a href="/Contact" class="btn btn-outline-white btn-lg">Talk to us</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <partial name="_Footer" />
+</body>
+
+</html>

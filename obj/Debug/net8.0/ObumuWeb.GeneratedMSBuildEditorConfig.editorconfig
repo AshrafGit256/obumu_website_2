@@ -1,0 +1,71 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ObumuWeb
+build_property.RootNamespace = ObumuWeb
+build_property.ProjectDir = C:\Users\hp\Downloads\ObumuWeb_fintech_improved\ObumuWeb_fintech\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\hp\Downloads\ObumuWeb_fintech_improved\ObumuWeb_fintech
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/hp/Downloads/ObumuWeb_fintech_improved/ObumuWeb_fintech/Pages/About.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWJvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Downloads/ObumuWeb_fintech_improved/ObumuWeb_fintech/Pages/Contact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29udGFjdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Downloads/ObumuWeb_fintech_improved/ObumuWeb_fintech/Pages/Download.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRG93bmxvYWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Downloads/ObumuWeb_fintech_improved/ObumuWeb_fintech/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Downloads/ObumuWeb_fintech_improved/ObumuWeb_fintech/Pages/Features.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmVhdHVyZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Downloads/ObumuWeb_fintech_improved/ObumuWeb_fintech/Pages/HowItWorks.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG93SXRXb3Jrcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Downloads/ObumuWeb_fintech_improved/ObumuWeb_fintech/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Downloads/ObumuWeb_fintech_improved/ObumuWeb_fintech/Pages/Shared/_Footer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9Gb290ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Downloads/ObumuWeb_fintech_improved/ObumuWeb_fintech/Pages/Shared/_Head.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9IZWFkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Downloads/ObumuWeb_fintech_improved/ObumuWeb_fintech/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Downloads/ObumuWeb_fintech_improved/ObumuWeb_fintech/Pages/Shared/_Nav.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9OYXYuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Downloads/ObumuWeb_fintech_improved/ObumuWeb_fintech/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Downloads/ObumuWeb_fintech_improved/ObumuWeb_fintech/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

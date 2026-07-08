@@ -1,0 +1,342 @@
+@page
+@model AboutModel
+@{
+  Layout = null;
+  ViewData["Title"] = "About Us - Obumu";
+  ViewData["ActiveNav"] = "about";
+}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <partial name="_Head" />
+</head>
+
+<body>
+
+  <partial name="_Nav" />
+
+  <!-- HERO -->
+  <section class="hero hero-inner" style="--hero-img:url('/assets/images/events/offering.jpg')">
+    <div class="hero-blob"></div>
+    <div class="hero-main wrap">
+      <div class="hero-left">
+        <div class="hero-pill"><span class="pill-dot"></span>Our story</div>
+        <h1>Unity, transparency and <span style="color:var(--orange)">trust</span> for every Ugandan community.</h1>
+        <p class="hero-sub">
+          Obumu means "unity" in Luganda. We're a Kampala-built team making it simple,
+          safe, and transparent for communities to raise and track money together.
+          <strong>Every shilling, accounted for.</strong>
+        </p>
+        <div class="hero-cta">
+          <a href="http://209.209.42.109:5000/Obumu/Accounts/Register" class="btn btn-orange btn-lg">Get started
+            free</a>
+          <a href="/HowItWorks" class="btn btn-outline btn-lg">See how it works</a>
+        </div>
+      </div>
+      <div class="hero-right">
+        <div class="hero-visual-wrap">
+          <div class="hero-accent-bar"></div>
+          <div class="hero-img-main">
+            <img src="/assets/images/events/togetherness.png" alt="Community members coming together on Obumu" loading="eager" style="width:100%;height:100%;object-fit:cover" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BIG BOLD CLAIM -->
+  <div class="claim-banner">
+    <div class="wrap claim-banner-text">
+      Unity means <em>25,000+</em> Ugandans collecting together, one transparent shilling at a time.
+    </div>
+  </div>
+
+  <!-- MISSION INTERCEPT -->
+  <section class="intercept">
+    <div class="intercept-inner wrap-sm">
+      <h2>We believe every contribution deserves <em>a receipt, a record, and a reason to trust it.</em></h2>
+      <p class="intercept-pull">That's why we built Obumu, so no one has to keep a mental tally of who paid what,
+        or wonder where the money went.</p>
+    </div>
+  </section>
+
+  <!-- STORY SPLIT -->
+  <section class="about-split">
+    <div class="wrap">
+      <div class="about-split-inner">
+        <div class="about-split-text">
+          <span class="eyebrow">Why we started</span>
+          <h2 class="display-sm">Built after watching too many good causes get complicated by spreadsheets.</h2>
+          <p class="lead" style="max-width:none">
+            Across Uganda, communities have always come together for weddings, introductions, medical
+            emergencies, and school fees. But keeping track of who contributed, chasing pledges, and
+            proving where the money went was always the hard part.
+          </p>
+          <p class="lead" style="max-width:none">
+            Obumu digitises that trust. Organisers create a collection in minutes, contributors pay with
+            MTN MoMo, Airtel Money, Visa, or bank transfer, and everyone can see the running total,
+            live, in one place.
+          </p>
+        </div>
+        <div class="about-split-img">
+          <img src="/assets/images/events/community&amp;environment.jpg" alt="Community environment project supported through Obumu" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- IMPACT STATS -->
+  <section class="stats-strip">
+    <div class="wrap">
+      <div class="stats-strip-grid">
+        <div class="stats-strip-item">
+          <strong>25,000+</strong>
+          <span>Active users</span>
+        </div>
+        <div class="stats-strip-item">
+          <strong>UGX 2.4B+</strong>
+          <span>Collected through Obumu</span>
+        </div>
+        <div class="stats-strip-item">
+          <strong>1,200+</strong>
+          <span>Collections created</span>
+        </div>
+        <div class="stats-strip-item">
+          <strong>4.8 / 5</strong>
+          <span>Average user rating</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MILESTONES -->
+  <section class="milestones-section">
+    <div class="wrap">
+      <div class="feat-header">
+        <span class="eyebrow">Our journey</span>
+        <h2 class="display-sm">From an idea to a movement</h2>
+      </div>
+      <div class="milestones-list">
+        <div class="milestone">
+          <div class="milestone-dot"></div>
+          <div class="milestone-body">
+            <span class="milestone-year">2023</span>
+            <h3>The idea takes shape</h3>
+            <p>A small Kampala team, tired of watching spreadsheets and paper lists fail communities,
+              starts building a simpler way to collect and track money together.</p>
+          </div>
+        </div>
+        <div class="milestone">
+          <div class="milestone-dot"></div>
+          <div class="milestone-body">
+            <span class="milestone-year">2024</span>
+            <h3>Obumu goes live</h3>
+            <p>The first collections launch on mobile money rails, starting with weddings, burials, and
+              medical appeals across Kampala and Wakiso.</p>
+          </div>
+        </div>
+        <div class="milestone">
+          <div class="milestone-dot"></div>
+          <div class="milestone-body">
+            <span class="milestone-year">2025</span>
+            <h3>Pledges and payouts, streamlined</h3>
+            <p>Pledge tracking, multi-organiser access, and instant payouts roll out, and Obumu crosses
+              its first billion shillings collected.</p>
+          </div>
+        </div>
+        <div class="milestone">
+          <div class="milestone-dot"></div>
+          <div class="milestone-body">
+            <span class="milestone-year">2026</span>
+            <h3>Built for every community</h3>
+            <p>Obumu expands beyond Kampala, adding support for schools, churches, and grassroots projects
+              in every corner of Uganda.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- REAL MOMENTS GALLERY -->
+  <section class="gallery-section">
+    <div class="wrap">
+      <div class="feat-header">
+        <span class="eyebrow">Real communities, real moments</span>
+        <h2 class="display-sm">Collections happening across Uganda right now</h2>
+      </div>
+      <div class="gallery-grid">
+        <div class="gallery-card">
+          <img src="/assets/images/events/Nalwanga's_introduction.jpg" alt="Nalwanga's introduction ceremony funded on Obumu" loading="lazy" />
+          <div class="gallery-card-overlay">
+            <div class="gallery-card-cap">
+              <h4>An introduction ceremony</h4>
+              <p>Family and friends pooled contributions in one place, no spreadsheet needed.</p>
+            </div>
+          </div>
+        </div>
+        <div class="gallery-card">
+          <img src="/assets/images/events/Tendo_surgery.jpg" alt="Community raising funds for Tendo's surgery" loading="lazy" />
+          <div class="gallery-card-overlay">
+            <div class="gallery-card-cap">
+              <h4>An urgent medical bill</h4>
+              <p>Contributors paid instantly by mobile money the moment the collection went live.</p>
+            </div>
+          </div>
+        </div>
+        <div class="gallery-card">
+          <img src="/assets/images/events/burial.png" alt="A community supporting a family through a burial" loading="lazy" />
+          <div class="gallery-card-overlay">
+            <div class="gallery-card-cap">
+              <h4>Supporting a grieving family</h4>
+              <p>Every shilling tracked and accounted for, so no one had to keep a mental tally.</p>
+            </div>
+          </div>
+        </div>
+        <div class="gallery-card">
+          <img src="/assets/images/events/healthcare.jpg" alt="A community healthcare fundraiser" loading="lazy" />
+          <div class="gallery-card-overlay">
+            <div class="gallery-card-cap">
+              <h4>A healthcare appeal</h4>
+              <p>Pledges and payments tracked side by side, with automatic reminders for pledgers.</p>
+            </div>
+          </div>
+        </div>
+        <div class="gallery-card">
+          <img src="/assets/images/events/introductions.png" alt="Family members celebrating an introduction" loading="lazy" />
+          <div class="gallery-card-overlay">
+            <div class="gallery-card-cap">
+              <h4>A family celebration</h4>
+              <p>Co-organisers managed the collection together without sharing a single login.</p>
+            </div>
+          </div>
+        </div>
+        <div class="gallery-card">
+          <img src="/assets/images/events/new_classroom_block.jpg" alt="A new classroom block built through community fundraising" loading="lazy" />
+          <div class="gallery-card-overlay">
+            <div class="gallery-card-cap">
+              <h4>A new classroom block</h4>
+              <p>A school community raised funds for a classroom, with a public ledger everyone could see.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- VALUES -->
+  <section class="features-section" id="values">
+    <div class="wrap">
+      <div class="feat-header">
+        <span class="eyebrow">What guides us</span>
+        <h2 class="display-sm">Our values</h2>
+      </div>
+      <div class="feat-grid feat-grid-auto">
+        <div class="feat-card" data-r>
+          <div class="feat-icon">
+            <svg viewBox="0 0 24 24" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M17 21v-2a4 4 0 0 0-4-4H7a4 4 0 0 0-4 4v2" />
+              <circle cx="10" cy="7" r="4" />
+              <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
+              <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+            </svg>
+          </div>
+          <h3>Unity first</h3>
+          <p>Obumu exists to bring people together around a shared cause, never to complicate it.</p>
+        </div>
+        <div class="feat-card" data-r>
+          <div class="feat-icon">
+            <svg viewBox="0 0 24 24" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7-10-7-10-7Z" />
+              <circle cx="12" cy="12" r="3" />
+            </svg>
+          </div>
+          <h3>Radical transparency</h3>
+          <p>Every contribution and pledge is visible and timestamped, so trust is never a guessing game.</p>
+        </div>
+        <div class="feat-card" data-r>
+          <div class="feat-icon">
+            <svg viewBox="0 0 24 24" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 2 4 5v6c0 5.25 3.4 9.74 8 11 4.6-1.26 8-5.75 8-11V5l-8-3Z" />
+            </svg>
+          </div>
+          <h3>Security by default</h3>
+          <p>We work only with regulated, licensed payment rails and bank-grade encryption throughout.</p>
+        </div>
+        <div class="feat-card" data-r>
+          <div class="feat-icon">
+            <svg viewBox="0 0 24 24" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M13 2 3 14h7l-1 8 11-14h-7l1-6Z" />
+            </svg>
+          </div>
+          <h3>Simplicity always</h3>
+          <p>If it takes more than a few taps, we've made it too hard. We design for every phone, every network.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TRUST -->
+  <section class="trust-section">
+    <div class="wrap">
+      <div class="trust-header">
+        <span class="eyebrow">Why communities trust us</span>
+        <h2 class="display-sm" style="color:#fff">Built on real safeguards</h2>
+      </div>
+      <div class="trust-heroes">
+        <div class="trust-hero glass-card-dark" data-r>
+          <div class="trust-pillar-icon">
+            <svg viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 2 4 5v6c0 5.25 3.4 9.74 8 11 4.6-1.26 8-5.75 8-11V5l-8-3Z" />
+            </svg>
+          </div>
+          <h3 class="trust-pillar-h">Bank-grade encryption</h3>
+          <p class="trust-hero-quote">Every transaction is encrypted end-to-end, from the moment money moves to the
+            moment it's recorded.</p>
+        </div>
+        <div class="trust-hero glass-card-dark" data-r>
+          <div class="trust-pillar-icon">
+            <svg viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7-10-7-10-7Z" />
+              <circle cx="12" cy="12" r="3" />
+            </svg>
+          </div>
+          <h3 class="trust-pillar-h">Full transparency</h3>
+          <p class="trust-hero-quote">Organisers and contributors both see a live, itemised record of every
+            shilling collected.</p>
+        </div>
+        <div class="trust-hero glass-card-dark" data-r>
+          <div class="trust-pillar-icon">
+            <svg viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M9 12l2 2 4-4" />
+              <path d="M12 2 4 5v6c0 5.25 3.4 9.74 8 11 4.6-1.26 8-5.75 8-11V5l-8-3Z" />
+            </svg>
+          </div>
+          <h3 class="trust-pillar-h">Licensed &amp; regulated</h3>
+          <p class="trust-hero-quote">Obumu works directly with MTN Mobile Money, Airtel Money, and Visa
+            using regulated, licensed payment rails.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-section" id="start">
+    <div class="cta-glass">
+      <div class="wrap-xs">
+        <span class="eyebrow" style="display:block;margin-bottom:18px;position:relative;z-index:1;color:var(--orange)">Join us</span>
+        <h2 class="cta-h">Be part of<br>the <em>movement.</em></h2>
+        <p class="cta-p">Set up your first collection in minutes. Free to start. Easy to use.</p>
+        <div class="cta-btns">
+          <a href="http://209.209.42.109:5000/Obumu/Accounts/Register" class="btn btn-orange btn-lg">Create your
+            account</a>
+          <a href="/Contact" class="btn btn-outline-white btn-lg">Talk to us</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <partial name="_Footer" />
+</body>
+
+</html>
