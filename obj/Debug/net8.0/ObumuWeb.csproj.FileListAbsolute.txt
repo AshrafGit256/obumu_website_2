@@ -26,3 +26,4 @@ C:\Users\hp\Downloads\ObumuWeb_fintech_improved\ObumuWeb_fintech\obj\Debug\net8.
 C:\Users\hp\Downloads\ObumuWeb_fintech_improved\ObumuWeb_fintech\obj\Debug\net8.0\ObumuWeb.pdb
 C:\Users\hp\Downloads\ObumuWeb_fintech_improved\ObumuWeb_fintech\obj\Debug\net8.0\ObumuWeb.genruntimeconfig.cache
 C:\Users\hp\Downloads\ObumuWeb_fintech_improved\ObumuWeb_fintech\obj\Debug\net8.0\ref\ObumuWeb.dll
+C:\Users\hp\Downloads\ObumuWeb_fintech_improved\ObumuWeb_fintech\obj\Debug\net8.0\ObumuWeb.sourcelink.json
