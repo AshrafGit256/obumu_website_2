@@ -137,6 +137,10 @@
       "PackagePath": "staticwebassets\\assets\\images\\obumu_on_mobile.png"
     },
     {
+      "Id": "C:\\Users\\hp\\Downloads\\ObumuWeb_fintech_improved\\ObumuWeb_fintech\\wwwroot\\assets\\images\\obumu_options.png",
+      "PackagePath": "staticwebassets\\assets\\images\\obumu_options.png"
+    },
+    {
       "Id": "C:\\Users\\hp\\Downloads\\ObumuWeb_fintech_improved\\ObumuWeb_fintech\\wwwroot\\assets\\images\\old_house.png",
       "PackagePath": "staticwebassets\\assets\\images\\old_house.png"
     },

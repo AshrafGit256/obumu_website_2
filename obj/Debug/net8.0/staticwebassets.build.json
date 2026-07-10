@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "BHFrTFv4eDZXFUFLQaU6vP83ZdbVW6DXHgde4G76KK0=",
+  "Hash": "v7Ce9aPyv6QT5Ny4H4P3kiZWbIXDuHz7FMHfsG2HGZE=",
   "Source": "ObumuWeb",
   "BasePath": "_content/ObumuWeb",
   "Mode": "Default",
@@ -661,6 +661,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\images\\obumu_on_mobile.png"
+    },
+    {
+      "Identity": "C:\\Users\\hp\\Downloads\\ObumuWeb_fintech_improved\\ObumuWeb_fintech\\wwwroot\\assets\\images\\obumu_options.png",
+      "SourceId": "ObumuWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\hp\\Downloads\\ObumuWeb_fintech_improved\\ObumuWeb_fintech\\wwwroot\\",
+      "BasePath": "_content/ObumuWeb",
+      "RelativePath": "assets/images/obumu_options.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\obumu_options.png"
     },
     {
       "Identity": "C:\\Users\\hp\\Downloads\\ObumuWeb_fintech_improved\\ObumuWeb_fintech\\wwwroot\\assets\\images\\old_house.png",

@@ -1,0 +1,78 @@
+@{
+  var pageKey = (ViewData["ObumuStripKey"] as string) ?? "home";
+  var slides = pageKey switch
+  {
+    "about" => new[]
+    {
+      new { Image = "/assets/images/obumu_on_mobile.png", Alt = "Obumu on mobile", Title = "Built for groups", Desc = "Simple collections for every community." },
+      new { Image = "/assets/images/people_looking_at_the_phone.png", Alt = "People looking at the phone", Title = "Everyone can join", Desc = "One link makes it easy to chip in." },
+      new { Image = "/assets/images/fundraisers.png", Alt = "Fundraisers", Title = "Stay transparent", Desc = "Follow every payment as it lands." },
+    },
+    "features" => new[]
+    {
+      new { Image = "/assets/images/obumu_on_mobile.png", Alt = "Obumu on mobile", Title = "Track pledges", Desc = "See promises and payments together." },
+      new { Image = "/assets/images/people_looking_at_the_phone.png", Alt = "People looking at the phone", Title = "Share one link", Desc = "Send it through WhatsApp or SMS." },
+      new { Image = "/assets/images/fundraisers.png", Alt = "Fundraisers", Title = "Payments stay clear", Desc = "Watch every fundraiser grow live." },
+    },
+    "how" => new[]
+    {
+      new { Image = "/assets/images/obumu_on_mobile.png", Alt = "Obumu on mobile", Title = "Start fast", Desc = "Open a collection in minutes." },
+      new { Image = "/assets/images/people_looking_at_the_phone.png", Alt = "People looking at the phone", Title = "Invite people", Desc = "Let the group join from any phone." },
+      new { Image = "/assets/images/fundraisers.png", Alt = "Fundraisers", Title = "Collect together", Desc = "See the money come in step by step." },
+    },
+    "download" => new[]
+    {
+      new { Image = "/assets/images/obumu_on_mobile.png", Alt = "Obumu on mobile", Title = "Small app", Desc = "Easy to use on lighter phones." },
+      new { Image = "/assets/images/people_looking_at_the_phone.png", Alt = "People looking at the phone", Title = "Easy to share", Desc = "Works well on the move." },
+      new { Image = "/assets/images/fundraisers.png", Alt = "Fundraisers", Title = "Ready to use", Desc = "Start a collection right away." },
+    },
+    "contact" => new[]
+    {
+      new { Image = "/assets/images/obumu_on_mobile.png", Alt = "Obumu on mobile", Title = "Need help?", Desc = "Reach us from your phone." },
+      new { Image = "/assets/images/people_looking_at_the_phone.png", Alt = "People looking at the phone", Title = "Talk to us", Desc = "Ask about your collection." },
+      new { Image = "/assets/images/fundraisers.png", Alt = "Fundraisers", Title = "We are ready", Desc = "Support when you need it most." },
+    },
+    _ => new[]
+    {
+      new { Image = "/assets/images/obumu_on_mobile.png", Alt = "Obumu on mobile", Title = "Use Obumu on your phone", Desc = "Collect, contribute, and pledge in a few taps." },
+      new { Image = "/assets/images/people_looking_at_the_phone.png", Alt = "People looking at the phone", Title = "Share with your group", Desc = "One link, easy for everyone to join." },
+      new { Image = "/assets/images/fundraisers.png", Alt = "Fundraisers", Title = "Keep every fundraiser clear", Desc = "See money and pledges as they come in." },
+    }
+  };
+}
+
+<!-- OBUMU SLIDER -->
+<section class="obumu-strip" id="showcase" aria-label="Obumu highlights">
+  <div class="wrap obumu-strip-inner">
+    <div class="obumu-strip-side obumu-strip-side-prev" id="obumuStripPrev" aria-hidden="true">
+      <img class="obumu-strip-side-image" id="obumuStripPrevImage" src="@slides[2].Image" alt="" />
+      <div class="obumu-strip-side-copy">
+        <span class="obumu-strip-side-kicker">Previous</span>
+        <strong id="obumuStripPrevTitle">@slides[2].Title</strong>
+        <p id="obumuStripPrevDesc">@slides[2].Desc</p>
+      </div>
+    </div>
+    <div class="obumu-strip-media">
+      <img id="obumuStripImage" class="obumu-strip-image is-active" src="@slides[0].Image" alt="@slides[0].Alt" loading="eager" />
+    </div>
+    <div class="obumu-strip-copy">
+      <span class="obumu-strip-kicker">OBUMU</span>
+      <h2 class="obumu-strip-title" id="obumuStripTitle">@slides[0].Title</h2>
+      <p class="obumu-strip-desc" id="obumuStripDesc">@slides[0].Desc</p>
+    </div>
+    <div class="obumu-strip-side obumu-strip-side-next" id="obumuStripNext" aria-hidden="true">
+      <img class="obumu-strip-side-image" id="obumuStripNextImage" src="@slides[1].Image" alt="" />
+      <div class="obumu-strip-side-copy">
+        <span class="obumu-strip-side-kicker">Next</span>
+        <strong id="obumuStripNextTitle">@slides[1].Title</strong>
+        <p id="obumuStripNextDesc">@slides[1].Desc</p>
+      </div>
+    </div>
+    <div class="obumu-strip-slides" id="obumuStripSlides" hidden>
+      @foreach (var slide in slides)
+      {
+        <div data-image="@slide.Image" data-alt="@slide.Alt" data-title="@slide.Title" data-desc="@slide.Desc"></div>
+      }
+    </div>
+  </div>
+</section>

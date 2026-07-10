@@ -139,399 +139,66 @@
 
     </section>
 
-    <!-- OBUMU SLIDER -->
-    <section class="obumu-strip" id="showcase" aria-label="Obumu highlights">
-      <div class="wrap obumu-strip-inner">
-        <div class="obumu-strip-side obumu-strip-side-prev" id="obumuStripPrev" aria-hidden="true">
-          <img class="obumu-strip-side-image" id="obumuStripPrevImage" src="/assets/images/people_looking_at_the_phone.png" alt="" />
-          <div class="obumu-strip-side-copy">
-            <span class="obumu-strip-side-kicker">Previous</span>
-            <strong id="obumuStripPrevTitle">Share with your group</strong>
-            <p id="obumuStripPrevDesc">One link, easy for everyone to join.</p>
-          </div>
-        </div>
-        <div class="obumu-strip-media">
-          <img id="obumuStripImage" class="obumu-strip-image is-active" src="/assets/images/obumu_on_mobile.png" alt="Obumu on mobile" loading="eager" />
-        </div>
-        <div class="obumu-strip-copy">
-          <span class="obumu-strip-kicker">OBUMU</span>
-          <h2 class="obumu-strip-title" id="obumuStripTitle">Use Obumu on your phone</h2>
-          <p class="obumu-strip-desc" id="obumuStripDesc">Collect, contribute, and pledge in a few taps.</p>
-        </div>
-        <div class="obumu-strip-side obumu-strip-side-next" id="obumuStripNext" aria-hidden="true">
-          <img class="obumu-strip-side-image" id="obumuStripNextImage" src="/assets/images/fundraisers.png" alt="" />
-          <div class="obumu-strip-side-copy">
-            <span class="obumu-strip-side-kicker">Next</span>
-            <strong id="obumuStripNextTitle">Keep every fundraiser clear</strong>
-            <p id="obumuStripNextDesc">See money and pledges as they come in.</p>
-          </div>
-        </div>
-        <div class="obumu-strip-slides" id="obumuStripSlides" hidden>
-          <div data-image="/assets/images/obumu_on_mobile.png" data-alt="Obumu on mobile" data-title="Use Obumu on your phone" data-desc="Collect, contribute, and pledge in a few taps."></div>
-          <div data-image="/assets/images/people_looking_at_the_phone.png" data-alt="People looking at the phone" data-title="Share with your group" data-desc="One link, easy for everyone to join."></div>
-          <div data-image="/assets/images/fundraisers.png" data-alt="Fundraisers" data-title="Keep every fundraiser clear" data-desc="See money and pledges as they come in."></div>
-        </div>
-      </div>
-    </section>
+    <partial name="_ObumuStrip" />
 
     <!-- INTERCEPT -->
     <div class="intercept" id="promise">
       <div class="intercept-inner wrap-xs">
-        <h2>Built for Uganda,<br><em>made for your community.</em></h2>
-        <p class="intercept-pull">Obumu gives every community in Uganda a simple, honest way to collect money and manage
-          pledges with full visibility into every payment.</p>
-          <a href="http://209.209.42.109:5106/Obumu/Accounts/Register" class="btn btn-blue btn-lg">Create your account</a>
+        <h2>Built for communities,<br><em>made for shared goals.</em></h2>
+        <p class="intercept-pull">Obumu gives every community a simple, honest way to collect funds and manage pledges
+          with full visibility into every payment.</p>
+        <a href="http://209.209.42.109:5106/Obumu/Accounts/Register" class="btn btn-blue btn-lg">Create your account</a>
+      </div>
+    </div>
+
+    <!-- BRIDGE -->
+    <section class="bridge-section" id="bridge">
+      <div class="wrap bridge-inner">
+        <div class="bridge-copy">
+          <span class="eyebrow">Why Obumu feels easy</span>
+          <h2 class="display-sm">Start a collection. <em>Share it.</em></h2>
+          <p class="lead">People join, contribute, and follow progress in one simple place.</p>
+          <div class="bridge-points">
+            <div class="bridge-point">
+              <span class="bridge-point-icon">01</span>
+              <strong>Start fast</strong>
+              <p>Set up a collection and share it right away.</p>
+            </div>
+            <div class="bridge-point">
+              <span class="bridge-point-icon">02</span>
+              <strong>Keep track</strong>
+              <p>See pledges and progress in one place.</p>
+            </div>
+            <div class="bridge-point">
+              <span class="bridge-point-icon">03</span>
+              <strong>Contribute</strong>
+              <p>Send your support with a simple, visible flow.</p>
+            </div>
+          </div>
+        </div>
+        <div class="bridge-visual" aria-hidden="true">
+          <div class="bridge-visual-frame">
+            <img src="/assets/images/obumu_options.png" alt="" loading="lazy" />
+          </div>
         </div>
       </div>
+    </section>
 
-      <!-- HOW IT WORKS 3 steps -->
-      <section class="how-section" id="how">
-        <div class="wrap">
-          <div class="how-header" data-r>
-            <span class="eyebrow">How it works</span>
-            <h2 class="display-sm" style="max-width:560px;margin:0 auto 16px">Three steps.<br><em>Done.</em></h2>
-            <p class="lead" style="text-align:center;margin:0 auto;max-width:520px">Set up your collection, receive
-              contributions and pledges, then get paid all in one place.</p>
-            </div>
-            <div class="how-cols">
-              <div class="how-col" data-r="l">
-                <div class="how-col-num">01</div>
-                <div class="how-col-icon">
-                  <svg viewBox="0 0 40 40" fill="none">
-                    <rect x="5" y="7" width="30" height="26" rx="4" stroke="currentColor" stroke-width="1.8" />
-                    <path d="M13 3v8M27 3v8M5 18h30M13 26h14M13 31h8" stroke="currentColor" stroke-width="1.8"
-                          stroke-linecap="round" />
-                  </svg>
-                </div>
-                <h3>Create your collection</h3>
-                <p>Set up your event in under 2 minutes. Add a name, goal, and date. Obumu gives you a link to share right
-                  away.</p>
-                  <ul class="how-col-list">
-                    <li>Event name &amp; goal amount</li>
-                    <li>Shareable payment link</li>
-                    <li>Live in 2 minutes</li>
-                  </ul>
-                </div>
-                <div class="how-col" data-r>
-                  <div class="how-col-num">02</div>
-                  <div class="how-col-icon">
-                    <svg viewBox="0 0 40 40" fill="none">
-                      <rect x="4" y="10" width="32" height="22" rx="4" stroke="currentColor" stroke-width="1.8" />
-                      <path d="M4 17h32" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
-                      <circle cx="12" cy="27" r="2.5" stroke="currentColor" stroke-width="1.6" />
-                      <path d="M19 25h10M19 29h7" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" />
-                    </svg>
-                  </div>
-                  <h3>Receive money &amp; pledges</h3>
-                  <p>People pay via MTN MoMo, Airtel, or Visa. Pledgers commit now and pay later Obumu sends them reminders so
-                    you never have to ask.</p>
-                    <ul class="how-col-list">
-                      <li>MTN, Airtel &amp; Visa</li>
-                      <li>Pledge reminders automatic</li>
-                      <li>Live progress dashboard</li>
-                    </ul>
-                  </div>
-                  <div class="how-col" data-r="r">
-                    <div class="how-col-num">03</div>
-                    <div class="how-col-icon">
-                      <svg viewBox="0 0 40 40" fill="none">
-                        <path d="M20 5L4 13v10c0 8 7 14 16 16 9-2 16-8 16-16V13L20 5Z" stroke="currentColor" stroke-width="1.8"
-                              stroke-linejoin="round" />
-                        <path d="M13 20l5 5 9-9" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                              stroke-linejoin="round" />
-                      </svg>
-                    </div>
-                    <h3>Get paid instantly</h3>
-                    <p>Money lands straight on your MTN or Airtel account. No forms, no waiting. Every payout comes with a full
-                      receipt for everyone.</p>
-                      <ul class="how-col-list">
-                        <li>Instant mobile money payout</li>
-                        <li>Receipts for all parties</li>
-                        <li>Full payment history</li>
-                      </ul>
-                    </div>
-                  </div>
-
-                  <!-- Live dashboard mockup -->
-                  <div class="how-dashboard glass-card-dark" data-r>
-                    <div class="how-db-head">
-                      <div class="how-db-badge">
-                        <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
-                          <rect x="1" y="3" width="14" height="11" rx="2" />
-                          <path d="M1 7h14M5 1v4M11 1v4" />
-                        </svg>
-                        Live Dashboard
-                      </div>
-                      <span class="how-db-live"><span class="pill-dot" style="width:6px;height:6px"></span>Live</span>
-                    </div>
-                    <div class="how-db-grid">
-                      <div class="how-db-stat"><span class="how-db-stat-lbl">Total collected</span><span
-                        class="how-db-stat-val orange">UGX 13,600,000</span></div>
-                        <div class="how-db-stat"><span class="how-db-stat-lbl">Contributors</span><span
-                          class="how-db-stat-val">312</span></div>
-                          <div class="how-db-stat"><span class="how-db-stat-lbl">Pledged</span><span class="how-db-stat-val">UGX
-                            4,200,000</span></div>
-                            <div class="how-db-stat"><span class="how-db-stat-lbl">Goal</span><span class="how-db-stat-val">UGX
-                              20,000,000</span></div>
-                            </div>
-                            <div class="how-bar-wrap" style="margin-top:12px">
-                              <div class="how-bar-lbl"><span>Collection progress</span><span
-                                style="color:var(--orange);font-weight:700">68%</span></div>
-                                <div class="how-bar-track">
-                                  <div class="how-bar-fill" style="width:68%"></div>
-                                </div>
-                              </div>
-                              <div class="how-ui-badge success" style="margin-top:16px">âœ“ Payout on the way</div>
-                            </div>
-                          </div>
-                        </section>
-
-                        <!-- APP SECTION webapp + mobile mockups -->
-                        <section class="app-section">
-                          <div class="wrap">
-                            <div class="app-section-inner">
-                              <div class="app-text" data-r="l">
-                                <span class="eyebrow">Use it anywhere</span>
-                                <h2 class="display-sm">On your phone.<br><em>On your laptop.</em><br>On any device.</h2>
-                                <p class="lead">Obumu works in your browser no app to download. Organisers can manage collections from a
-                                  laptop. Contributors and pledgers can pay straight from a WhatsApp link on their phone.</p>
-                                  <ul class="app-list">
-                                    <li>
-                                      <div class="app-list-icon">
-                                        <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
-                                          <rect x="5" y="1" width="10" height="18" rx="2" />
-                                          <path d="M9 16h2" />
-                                        </svg>
-                                      </div>
-                                      <div><strong>Mobile-friendly</strong>
-                                        <p>Works perfectly on any phone, even a basic one.</p>
-                                      </div>
-                                    </li>
-                                    <li>
-                                      <div class="app-list-icon">
-                                        <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
-                                          <rect x="1" y="3" width="18" height="13" rx="2" />
-                                          <path d="M7 19h6M10 16v3" />
-                                        </svg>
-                                      </div>
-                                      <div><strong>Full web dashboard</strong>
-                                        <p>Manage everything from a computer when you need more detail.</p>
-                                      </div>
-                                    </li>
-                                    <li>
-                                      <div class="app-list-icon">
-                                        <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
-                                          <path d="M18 13.5A9 9 0 115.5 2M18 2l-9 9" />
-                                          <path d="M13 2h5v5" />
-                                        </svg>
-                                      </div>
-                                      <div><strong>Share across all platforms</strong>
-                                        <p>One link, sent anywhere WhatsApp, Facebook, SMS, email. People pay without creating an account.</p>
-                                      </div>
-                                    </li>
-                                  </ul>
-                                  <div style="margin-top:32px;display:flex;gap:12px;flex-wrap:wrap">
-                                    <a href="#start" class="btn btn-orange btn-lg">Start collecting</a>
-                                    <a href="#how" class="btn btn-outline btn-lg">See how it works</a>
-                                  </div>
-                                </div>
-                                <div class="app-mockups" data-r="r">
-                                  <!-- Web app mockup -->
-                                  <div class="webapp-mockup glass-card">
-                                    <div class="webapp-bar">
-                                      <div class="webapp-dots"><span></span><span></span><span></span></div>
-                                      <div class="webapp-url">app.obumu.ug/dashboard</div>
-                                    </div>
-                                    <div class="webapp-content">
-                                      <div class="webapp-sidebar">
-                                        <div class="webapp-nav-item active">Dashboard</div>
-                                        <div class="webapp-nav-item">Collections</div>
-                                        <div class="webapp-nav-item">Pledges</div>
-                                        <div class="webapp-nav-item">Payouts</div>
-                                        <div class="webapp-nav-item">Settings</div>
-                                      </div>
-                                      <div class="webapp-main">
-                                        <div class="webapp-main-title">Collections overview</div>
-                                        <div class="webapp-stats-row">
-                                          <div class="webapp-stat-card"><span class="webapp-stat-val orange">UGX 47.2M</span><span
-                                            class="webapp-stat-lbl">Total collected</span></div>
-                                            <div class="webapp-stat-card"><span class="webapp-stat-val">1,240</span><span
-                                              class="webapp-stat-lbl">Contributors</span></div>
-                                              <div class="webapp-stat-card"><span class="webapp-stat-val green">UGX 8.4M</span><span
-                                                class="webapp-stat-lbl">Pledged</span></div>
-                                              </div>
-                                              <div class="webapp-table-head"><span>Event</span><span>Collected</span><span>Status</span></div>
-                                              <div class="webapp-table-row"><span>Nalwanga Intro</span><span class="hi-orange">13.6M</span><span
-                                                class="badge-active">Active</span></div>
-                                                <div class="webapp-table-row"><span>Ssemanda Burial</span><span>9.1M</span><span class="badge-done">Paid
-                                                  out</span></div>
-                                                  <div class="webapp-table-row dim"><span>Gulu School</span><span>26.5M</span><span
-                                                    class="badge-active">Active</span></div>
-                                                  </div>
-                                                </div>
-                                              </div>
-                                              <!-- Mobile mockup floating -->
-                                              <div class="mobile-float glass-card">
-                                                <div class="mobile-float-notch"></div>
-                                                <div class="mobile-float-screen">
-                                                  <div class="mobile-float-title">Nalwanga Introduction</div>
-                                                  <div class="mobile-float-amount hi-orange">UGX 13,600,000</div>
-                                                  <div class="mobile-float-sub">collected of UGX 20M goal</div>
-                                                  <div class="how-bar-track" style="margin:10px 0 6px">
-                                                    <div class="how-bar-fill" style="width:68%"></div>
-                                                  </div>
-                                                  <div style="font-size:.65rem;color:rgba(255,255,255,.45);margin-bottom:10px">312 contributors Â· 48 pledges
-                                                  </div>
-                                                  <div class="mobile-float-btn">Pay now MTN MoMo</div>
-                                                </div>
-                                              </div>
-                                            </div>
-                                          </div>
-                                        </div>
-                                      </section>
-
-                                      <!-- FEATURES -->
-                                      <section class="features-section" id="features">
-                                        <div class="wrap">
-                                          <div class="feat-header" data-r>
-                                            <span class="eyebrow">Platform features</span>
-                                            <h2 class="display-sm" style="max-width:520px;margin:0 auto 16px">Everything you need.<br><em>Nothing you don't.</em></h2>
-                                            <p class="lead" style="text-align:center;margin:0 auto;max-width:480px">Simple tools that solve real problems for Ugandan communities collecting money together.</p>
-                                          </div>
-                                          <div class="feat-grid">
-                                            <div class="feat-card" data-r="l">
-                                              <div class="feat-icon">
-                                                <svg viewBox="0 0 24 24" fill="none" stroke-width="1.6" stroke-linecap="round">
-                                                  <path d="M12 2L2 7l10 5 10-5-10-5Z" />
-                                                  <path d="M2 17l10 5 10-5" />
-                                                  <path d="M2 12l10 5 10-5" />
-                                                </svg>
-                                              </div>
-                                              <h3>Pledge tracking</h3>
-                                              <p>People promise money and Obumu tracks it. Automatic reminders mean they pay without you having to ask.</p>
-                                            </div>
-                                            <div class="feat-card" data-r>
-                                              <div class="feat-icon">
-                                                <svg viewBox="0 0 24 24" fill="none" stroke-width="1.6" stroke-linecap="round">
-                                                  <rect x="1" y="5" width="22" height="16" rx="2" />
-                                                  <path d="M1 10h22M5 15h2M9 15h6" />
-                                                </svg>
-                                              </div>
-                                              <h3>All payment methods</h3>
-                                              <p>MTN Mobile Money, Airtel Money, and Visa all in one checkout. No switching between apps or menus.</p>
-                                            </div>
-                                            <div class="feat-card" data-r="r">
-                                              <div class="feat-icon">
-                                                <svg viewBox="0 0 24 24" fill="none" stroke-width="1.6" stroke-linecap="round">
-                                                  <path d="M12 2a10 10 0 100 20A10 10 0 0012 2Z" />
-                                                  <path d="M12 6v6l4 2" />
-                                                </svg>
-                                              </div>
-                                              <h3>Fast payouts</h3>
-                                              <p>Payments clear instantly and land directly on your MTN or Airtel mobile money account. Zero delays, zero forms.</p>
-                                            </div>
-                                          </div>
-                                        </div>
-                                      </section>
-
-                                      <!-- BANKS & PAYMENT PARTNERS -->
-                                      <section class="banks-marquee-section" id="banks">
-                                        <div class="wrap">
-                                          <span class="partners-strip-label">Pay the way you already do â€” banks &amp; channels we work with</span>
-                                          <span class="accent-underline"></span>
-                                        </div>
-                                        <div class="banks-marquee" aria-label="Banks and payment partners">
-                                          <div class="banks-track">
-                                            <div class="bank-badge-logo"><img src="/assets/images/MTN.png" alt="MTN Mobile Money" /></div>
-                                            <div class="bank-badge-logo"><img src="/assets/images/airtel.webp" alt="Airtel Money" /></div>
-                                            <div class="bank-badge-logo"><img src="/assets/images/visa.png" alt="Visa" /></div>
-                                            <div class="bank-badge-logo"><img src="/assets/images/bank_transfer.png" alt="Bank transfer" /></div>
-                                            <div class="bank-badge-logo"><img src="/assets/images/centenarybank_logo.jpg" alt="Centenary Bank" /></div>
-                                            <div class="bank-badge-logo"><img src="/assets/images/stanbic_logo.png" alt="Stanbic Bank" /></div>
-                                            <div class="bank-badge-logo"><img src="/assets/images/DFCU_logo.png" alt="DFCU Bank" /></div>
-                                            <div class="bank-badge-logo"><img src="/assets/images/Absa_Logo.svg" alt="Absa Bank" /></div>
-                                            <div class="bank-badge-logo"><img src="/assets/images/equity-bank_logo.webp" alt="Equity Bank" /></div>
-                                            <div class="bank-badge-logo"><img src="/assets/images/HousingFinance_logo.png" alt="Housing Finance Bank" /></div>
-                                            <div class="bank-badge-logo"><img src="/assets/images/postbank_uganda_ltd_logo.jpg" alt="PostBank Uganda" /></div>
-                                            <!-- duplicate set for seamless loop -->
-                                            <div class="bank-badge-logo"><img src="/assets/images/MTN.png" alt="MTN Mobile Money" /></div>
-                                            <div class="bank-badge-logo"><img src="/assets/images/airtel.webp" alt="Airtel Money" /></div>
-                                            <div class="bank-badge-logo"><img src="/assets/images/visa.png" alt="Visa" /></div>
-                                            <div class="bank-badge-logo"><img src="/assets/images/bank_transfer.png" alt="Bank transfer" /></div>
-                                            <div class="bank-badge-logo"><img src="/assets/images/centenarybank_logo.jpg" alt="Centenary Bank" /></div>
-                                            <div class="bank-badge-logo"><img src="/assets/images/stanbic_logo.png" alt="Stanbic Bank" /></div>
-                                            <div class="bank-badge-logo"><img src="/assets/images/DFCU_logo.png" alt="DFCU Bank" /></div>
-                                            <div class="bank-badge-logo"><img src="/assets/images/Absa_Logo.svg" alt="Absa Bank" /></div>
-                                            <div class="bank-badge-logo"><img src="/assets/images/equity-bank_logo.webp" alt="Equity Bank" /></div>
-                                            <div class="bank-badge-logo"><img src="/assets/images/HousingFinance_logo.png" alt="Housing Finance Bank" /></div>
-                                            <div class="bank-badge-logo"><img src="/assets/images/postbank_uganda_ltd_logo.jpg" alt="PostBank Uganda" /></div>
-                                          </div>
-                                        </div>
-                                      </section>
-
-                                                <!-- TRUST & SECURITY -->
-                                                <section class="trust-section" id="about">
-                                                  <div class="wrap trust-header" data-r>
-                                                    <span class="eyebrow">Built on trust</span>
-                                                    <h2 class="display-sm" style="text-align:center;margin-bottom:14px;color:#fff">Trusted across <em>Uganda.</em>
-                                                    </h2>
-                                                    <p style="text-align:center;font-size:1rem;color:rgba(245,200,66,.6)">Every collection on Obumu is built on the
-                                                      same standards of transparency and security, wherever you are in the country.</p>
-                                                    </div>
-                                                    <div class="wrap">
-                                                      <div class="trust-heroes">
-                                                        <div class="trust-hero glass-card-dark" data-r="l">
-                                                          <div class="trust-pillar-icon">
-                                                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round">
-                                                              <path d="M12 2 4 5v6c0 6 4 9.4 8 11 4-1.6 8-5 8-11V5l-8-3Z" />
-                                                              <path d="M9 12l2 2 4-4" />
-                                                            </svg>
-                                                          </div>
-                                                          <h3 class="trust-pillar-h">Bank-grade encryption</h3>
-                                                          <p class="trust-hero-quote">Every payment and pledge is protected end-to-end, built to the same
-                                                            security standards as Uganda's leading banks.</p>
-                                                          </div>
-                                                          <div class="trust-hero glass-card-dark" data-r>
-                                                            <div class="trust-pillar-icon">
-                                                              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round">
-                                                                <path d="M3 3v18h18" />
-                                                                <path d="M7 15l4-5 3 3 5-7" />
-                                                              </svg>
-                                                            </div>
-                                                            <h3 class="trust-pillar-h">Full transparency</h3>
-                                                            <p class="trust-hero-quote">Contributors and organisers can see exactly how much has been collected
-                                                              and pledged, in real time, at every step.</p>
-                                                            </div>
-                                                            <div class="trust-hero glass-card-dark" data-r="r">
-                                                              <div class="trust-pillar-icon">
-                                                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round">
-                                                                  <rect x="3" y="10" width="18" height="10" rx="2" />
-                                                                  <path d="M7 10V7a5 5 0 0110 0v3" />
-                                                                </svg>
-                                                              </div>
-                                                              <h3 class="trust-pillar-h">Licensed &amp; regulated</h3>
-                                                              <p class="trust-hero-quote">Obumu works directly with MTN Mobile Money, Airtel Money, and Visa
-                                                                using regulated, licensed payment rails.</p>
-                                                              </div>
-                                                            </div>
-                                                          </div>
-                                                        </section>
-
-                                                        <!-- CTA -->
-                                                        <section class="cta-section" id="start">
-                                                          <div class="cta-glass">
-                                                            <div class="wrap-xs">
-                                                              <span class="eyebrow"
-                                                                    style="display:block;margin-bottom:18px;position:relative;z-index:1;color:var(--orange)">Ready?</span>
-                                                              <h2 class="cta-h">Your community<br>is <em>waiting.</em></h2>
-                                                              <p class="cta-p">Set up your first collection in minutes. Free to start. Easy to use.</p>
-                                                              <div class="cta-btns">
-                                                                <a href="http://209.209.42.109:5106/Obumu/Accounts/Register" class="btn btn-orange btn-lg">Create your account</a>
-                                                                <a href="#how" class="btn btn-outline-white btn-lg">See how it works</a>
-                                                              </div>
-                                                              </div>
-                                                            </div>
-                                                          </section>
+    <!-- CTA -->
+    <section class="cta-section" id="start">
+      <div class="cta-glass">
+        <div class="wrap-xs">
+          <span class="eyebrow"
+                style="display:block;margin-bottom:18px;position:relative;z-index:1;color:var(--orange)">Ready?</span>
+          <h2 class="cta-h">Your community<br>is <em>waiting.</em></h2>
+          <p class="cta-p">Set up your first collection in minutes. Free to start. Easy to use.</p>
+          <div class="cta-btns">
+            <a href="http://209.209.42.109:5106/Obumu/Accounts/Register" class="btn btn-orange btn-lg">Create your account</a>
+            <a href="/HowItWorks" class="btn btn-outline-white btn-lg">See how it works</a>
+          </div>
+        </div>
+      </div>
+    </section>
 
   <partial name="_Footer" />
 </body>
