@@ -2,7 +2,7 @@
 @model IndexModel
 @{
   Layout = null;
-  ViewData["Title"] = "Obumu Uganda's Contribution & Pledge Platform";
+  ViewData["Title"] = "Obumu is Contribution & Pledge Platform";
   ViewData["ActiveNav"] = "home";
 }
 <!DOCTYPE html>
@@ -12,7 +12,7 @@
   <partial name="_Head" />
 </head>
 
-<body>
+<body class="home-page">
 
   <partial name="_Nav" />
 
@@ -21,14 +21,13 @@
     @* <div class="hero-blob"></div> *@
     <div class="hero-main wrap">
       <div class="hero-left">
-        <div class="hero-pill"><span class="pill-dot"></span>Made for the community</div>
         <h1>Manage your contributions.<br><span>Track pledges.</span></h1>
         <p class="hero-sub">
-          Obumu is Uganda's platform for community contributions and pledges.
-          <strong>Fast, clear, and safe for every shilling that moves.</strong>
+          Obumu is a platform for community contributions and pledges.
+          <strong>Reliable, secure, and affordable.</strong>
         </p>
         <div class="hero-cta">
-          <a href="http://209.209.42.109:5000/Obumu/Accounts/Register" class="btn btn-orange btn-lg">Get started
+          <a href="http://209.209.42.109:5106/Obumu/Accounts/Register" class="btn btn-orange btn-lg">Get started
             free</a>
             <span class="hero-cta-aside">
               <svg viewBox="0 0 14 14" fill="none" stroke-width="1.6" stroke-linecap="round">
@@ -50,12 +49,6 @@
                 <rect x="5" y="2" width="14" height="20" rx="2" /><path d="M12 18h.01" />
               </svg>
               Mobile Money
-            </a>
-            <a href="#banks" class="hero-chip">
-              <svg viewBox="0 0 24 24" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
-                <rect x="1" y="5" width="22" height="16" rx="2" /><path d="M1 10h22M5 15h2M9 15h6" />
-              </svg>
-              Cards &amp; Channels
             </a>
           </div>
         </div>
@@ -80,12 +73,12 @@
                   </div>
                 </div>
                 <div class="event-slide is-active" role="group" aria-roledescription="slide" aria-label="1 of 7">
-                  <img src="/assets/images/events/Tendo_surgery.jpg" alt="Tendo's Surgery" loading="eager" />
+                  <img src="/assets/images/old_house.png" alt="Old House" loading="eager" />
                   <div class="event-slide-overlay"></div>
                   <div class="event-slide-caption">
                     <span class="event-slide-eyebrow">Obumu collections</span>
-                    <h3 class="event-slide-title">Tendo's Surgery</h3>
-                    <p class="event-slide-sub">Medical fundraizes are made easier with OBUMU</p>
+                    <h3 class="event-slide-title">Grandpa's House Renovation</h3>
+                    <p class="event-slide-sub">Rennovation fundraises are made easier with OBUMU</p>
                   </div>
                 </div>
                 <div class="event-slide is-active" role="group" aria-roledescription="slide" aria-label="1 of 7">
@@ -140,25 +133,46 @@
                 <!---<span>MTN &amp; Airtel Money</span> -->
               </div>
             </div>
-            <div class="hero-trust glass-card">
-              <span class="hero-trust-lbl">Payments</span>
-              <div class="hero-trust-sep"></div>
-              <span class="pay-pill mtn">MTN MoMo</span>
-              <span class="pay-pill airtel">Airtel</span>
-              <span class="pay-pill">Visa</span>
-            </div>
           </div>
         </div>
       </div>
 
     </section>
 
-    <!-- BIG BOLD CLAIM -->
-    <div class="claim-banner">
-      <div class="wrap claim-banner-text">
-        Trusted by <em>25,000+</em> Ugandans to collect over <em>UGX 2.4B</em>, transparently.
+    <!-- OBUMU SLIDER -->
+    <section class="obumu-strip" id="showcase" aria-label="Obumu highlights">
+      <div class="wrap obumu-strip-inner">
+        <div class="obumu-strip-side obumu-strip-side-prev" id="obumuStripPrev" aria-hidden="true">
+          <img class="obumu-strip-side-image" id="obumuStripPrevImage" src="/assets/images/people_looking_at_the_phone.png" alt="" />
+          <div class="obumu-strip-side-copy">
+            <span class="obumu-strip-side-kicker">Previous</span>
+            <strong id="obumuStripPrevTitle">Share with your group</strong>
+            <p id="obumuStripPrevDesc">One link, easy for everyone to join.</p>
+          </div>
+        </div>
+        <div class="obumu-strip-media">
+          <img id="obumuStripImage" class="obumu-strip-image is-active" src="/assets/images/obumu_on_mobile.png" alt="Obumu on mobile" loading="eager" />
+        </div>
+        <div class="obumu-strip-copy">
+          <span class="obumu-strip-kicker">OBUMU</span>
+          <h2 class="obumu-strip-title" id="obumuStripTitle">Use Obumu on your phone</h2>
+          <p class="obumu-strip-desc" id="obumuStripDesc">Collect, contribute, and pledge in a few taps.</p>
+        </div>
+        <div class="obumu-strip-side obumu-strip-side-next" id="obumuStripNext" aria-hidden="true">
+          <img class="obumu-strip-side-image" id="obumuStripNextImage" src="/assets/images/fundraisers.png" alt="" />
+          <div class="obumu-strip-side-copy">
+            <span class="obumu-strip-side-kicker">Next</span>
+            <strong id="obumuStripNextTitle">Keep every fundraiser clear</strong>
+            <p id="obumuStripNextDesc">See money and pledges as they come in.</p>
+          </div>
+        </div>
+        <div class="obumu-strip-slides" id="obumuStripSlides" hidden>
+          <div data-image="/assets/images/obumu_on_mobile.png" data-alt="Obumu on mobile" data-title="Use Obumu on your phone" data-desc="Collect, contribute, and pledge in a few taps."></div>
+          <div data-image="/assets/images/people_looking_at_the_phone.png" data-alt="People looking at the phone" data-title="Share with your group" data-desc="One link, easy for everyone to join."></div>
+          <div data-image="/assets/images/fundraisers.png" data-alt="Fundraisers" data-title="Keep every fundraiser clear" data-desc="See money and pledges as they come in."></div>
+        </div>
       </div>
-    </div>
+    </section>
 
     <!-- INTERCEPT -->
     <div class="intercept" id="promise">
@@ -166,7 +180,7 @@
         <h2>Built for Uganda,<br><em>made for your community.</em></h2>
         <p class="intercept-pull">Obumu gives every community in Uganda a simple, honest way to collect money and manage
           pledges with full visibility into every payment.</p>
-          <a href="http://209.209.42.109:5000/Obumu/Accounts/Register" class="btn btn-blue btn-lg">Create your account</a>
+          <a href="http://209.209.42.109:5106/Obumu/Accounts/Register" class="btn btn-blue btn-lg">Create your account</a>
         </div>
       </div>
 
@@ -512,7 +526,7 @@
                                                               <h2 class="cta-h">Your community<br>is <em>waiting.</em></h2>
                                                               <p class="cta-p">Set up your first collection in minutes. Free to start. Easy to use.</p>
                                                               <div class="cta-btns">
-                                                                <a href="http://209.209.42.109:5000/Obumu/Accounts/Register" class="btn btn-orange btn-lg">Create your account</a>
+                                                                <a href="http://209.209.42.109:5106/Obumu/Accounts/Register" class="btn btn-orange btn-lg">Create your account</a>
                                                                 <a href="#how" class="btn btn-outline-white btn-lg">See how it works</a>
                                                               </div>
                                                               </div>

@@ -97,6 +97,10 @@
       "PackagePath": "staticwebassets\\assets\\images\\events\\togetherness.png"
     },
     {
+      "Id": "C:\\Users\\hp\\Downloads\\ObumuWeb_fintech_improved\\ObumuWeb_fintech\\wwwroot\\assets\\images\\fundraisers.png",
+      "PackagePath": "staticwebassets\\assets\\images\\fundraisers.png"
+    },
+    {
       "Id": "C:\\Users\\hp\\Downloads\\ObumuWeb_fintech_improved\\ObumuWeb_fintech\\wwwroot\\assets\\images\\google_playstore.png",
       "PackagePath": "staticwebassets\\assets\\images\\google_playstore.png"
     },
@@ -127,6 +131,18 @@
     {
       "Id": "C:\\Users\\hp\\Downloads\\ObumuWeb_fintech_improved\\ObumuWeb_fintech\\wwwroot\\assets\\images\\obumu_logo_main.png",
       "PackagePath": "staticwebassets\\assets\\images\\obumu_logo_main.png"
+    },
+    {
+      "Id": "C:\\Users\\hp\\Downloads\\ObumuWeb_fintech_improved\\ObumuWeb_fintech\\wwwroot\\assets\\images\\obumu_on_mobile.png",
+      "PackagePath": "staticwebassets\\assets\\images\\obumu_on_mobile.png"
+    },
+    {
+      "Id": "C:\\Users\\hp\\Downloads\\ObumuWeb_fintech_improved\\ObumuWeb_fintech\\wwwroot\\assets\\images\\old_house.png",
+      "PackagePath": "staticwebassets\\assets\\images\\old_house.png"
+    },
+    {
+      "Id": "C:\\Users\\hp\\Downloads\\ObumuWeb_fintech_improved\\ObumuWeb_fintech\\wwwroot\\assets\\images\\people_looking_at_the_phone.png",
+      "PackagePath": "staticwebassets\\assets\\images\\people_looking_at_the_phone.png"
     },
     {
       "Id": "C:\\Users\\hp\\Downloads\\ObumuWeb_fintech_improved\\ObumuWeb_fintech\\wwwroot\\assets\\images\\postbank_uganda_ltd_logo.jpg",
