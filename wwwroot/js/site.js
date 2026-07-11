@@ -23,6 +23,34 @@ const io=new IntersectionObserver(entries=>{
 },{threshold:.07,rootMargin:'0px 0px -24px 0px'});
 document.querySelectorAll('[data-r],.feat-card,.trust-hero,.how-col,.role-col').forEach(el=>io.observe(el));
 
+/* How It Works: reversible, staggered reveals below the hero showcase. */
+const howPage=document.querySelector('.how-it-works-page');
+if(howPage && !matchMedia('(prefers-reduced-motion: reduce)').matches){
+  const flowObserver=new IntersectionObserver(entries=>{
+    entries.forEach(entry=>entry.target.classList.toggle('flow-in',entry.isIntersecting));
+  },{threshold:.14,rootMargin:'-4% 0px -8% 0px'});
+  howPage.querySelectorAll('[data-flow]').forEach(el=>flowObserver.observe(el));
+}
+
+/* How It Works hero: rotate the orange promise without shifting the hero layout. */
+const heroRotatingCopy=howPage?.querySelector('.hero-rotating-copy');
+if(heroRotatingCopy && !matchMedia('(prefers-reduced-motion: reduce)').matches){
+  const heroMessages=[
+    'One transparent process.',
+    'Every contribution visible.',
+    'Everyone stays informed.'
+  ];
+  let heroMessageIndex=0;
+  setInterval(()=>{
+    heroRotatingCopy.classList.add('is-changing');
+    setTimeout(()=>{
+      heroMessageIndex=(heroMessageIndex+1)%heroMessages.length;
+      heroRotatingCopy.textContent=heroMessages[heroMessageIndex];
+      heroRotatingCopy.classList.remove('is-changing');
+    },380);
+  },3400);
+}
+
 /* ── PROGRESS BARS ── */
 const progObs=new IntersectionObserver(entries=>{
   entries.forEach(e=>{
@@ -39,6 +67,31 @@ const progObs=new IntersectionObserver(entries=>{
   });
 },{threshold:.2});
 document.querySelectorAll('.how-dashboard,.role-mockup,.app-mockup-hero').forEach(c=>progObs.observe(c));
+
+/* Animate the live collection metrics when the dashboard enters view. */
+const liveDashboard=document.querySelector('.how-it-works-page .how-dashboard');
+if(liveDashboard && !matchMedia('(prefers-reduced-motion: reduce)').matches){
+  const metricObserver=new IntersectionObserver(entries=>{
+    if(!entries[0].isIntersecting)return;
+    liveDashboard.querySelectorAll('[data-count]').forEach(el=>{
+      const target=Number(el.dataset.count);
+      const prefix=el.dataset.prefix||'';
+      const suffix=el.dataset.suffix||'';
+      const decimals=String(target).includes('.')?1:0;
+      const start=performance.now();
+      const duration=1100;
+      const tick=now=>{
+        const progress=Math.min((now-start)/duration,1);
+        const eased=1-Math.pow(1-progress,3);
+        el.textContent=prefix+(target*eased).toFixed(decimals)+suffix;
+        if(progress<1)requestAnimationFrame(tick);
+      };
+      requestAnimationFrame(tick);
+    });
+    metricObserver.disconnect();
+  },{threshold:.35});
+  metricObserver.observe(liveDashboard);
+}
 
 /* ── SMOOTH SCROLL ── */
 document.querySelectorAll('a[href^="#"]').forEach(a=>{
