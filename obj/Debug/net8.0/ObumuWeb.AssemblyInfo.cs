@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ObumuWeb")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c9f6e97f46aaf60d7c9e5949d4025cf96105c760")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c24838b5d770ebb865415ec6d2d7b89d5925f271")]
 [assembly: System.Reflection.AssemblyProductAttribute("ObumuWeb")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ObumuWeb")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -49,6 +49,10 @@
       "PackagePath": "staticwebassets\\assets\\images\\desktop.png"
     },
     {
+      "Id": "C:\\Users\\hp\\Downloads\\ObumuWeb_fintech_improved\\ObumuWeb_fintech\\wwwroot\\assets\\images\\download_img.png",
+      "PackagePath": "staticwebassets\\assets\\images\\download_img.png"
+    },
+    {
       "Id": "C:\\Users\\hp\\Downloads\\ObumuWeb_fintech_improved\\ObumuWeb_fintech\\wwwroot\\assets\\images\\equity-bank_logo.webp",
       "PackagePath": "staticwebassets\\assets\\images\\equity-bank_logo.webp"
     },

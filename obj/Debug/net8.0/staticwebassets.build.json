@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "YGbwra3BjrjO6ZgID4pcQjJbnefmza6m2GrQjGWe3Lc=",
+  "Hash": "4xSRqTVEScPmOGdaeW/rvBby+A7nPcbCIsNoKatQUBQ=",
   "Source": "ObumuWeb",
   "BasePath": "_content/ObumuWeb",
   "Mode": "Default",
@@ -186,6 +186,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\images\\DFCU_logo.png"
+    },
+    {
+      "Identity": "C:\\Users\\hp\\Downloads\\ObumuWeb_fintech_improved\\ObumuWeb_fintech\\wwwroot\\assets\\images\\download_img.png",
+      "SourceId": "ObumuWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\hp\\Downloads\\ObumuWeb_fintech_improved\\ObumuWeb_fintech\\wwwroot\\",
+      "BasePath": "_content/ObumuWeb",
+      "RelativePath": "assets/images/download_img.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\download_img.png"
     },
     {
       "Identity": "C:\\Users\\hp\\Downloads\\ObumuWeb_fintech_improved\\ObumuWeb_fintech\\wwwroot\\assets\\images\\equity-bank_logo.webp",
